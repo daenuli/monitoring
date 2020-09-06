@@ -6,6 +6,7 @@ use App\Models\ProductionArea;
 use App\Models\Project;
 use App\User;
 use Carbon\Carbon;
+use App\Models\Progress;
 
 class ProjectSeeder extends Seeder
 {
@@ -21,6 +22,7 @@ class ProjectSeeder extends Seeder
         $user = User::orderBy('id')->get();
         $ma = MaintenanceArea::pluck('id');
         $pa = ProductionArea::pluck('id');
+        $progress = Progress::pluck('id');
         foreach($user as $row) {
             for ($i=1; $i <= rand(1, 4); $i++) {
                 Project::insert([
@@ -32,6 +34,8 @@ class ProjectSeeder extends Seeder
                     'description' => $faker->text($maxNbChars = 200),
                     'type' => $faker->randomElement(['jasa', 'barang']),
                     'due_date' => Carbon::now()->addDays($i * rand(2, 9)),
+                    'progress_id' => $faker->randomElement($progress),
+                    'status' => rand(0, 1),
                     'created_at' => Carbon::now(),
                     'updated_at' => Carbon::now()
                 ]);

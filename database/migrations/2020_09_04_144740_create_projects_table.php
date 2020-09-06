@@ -16,6 +16,7 @@ class CreateProjectsTable extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id');
+            $table->integer('progress_id');
             $table->integer('production_area_id');
             $table->integer('maintenance_area_id');
             $table->integer('work_order_number');
@@ -23,6 +24,7 @@ class CreateProjectsTable extends Migration
             $table->text('description');
             $table->enum('type', ['jasa', 'barang']);
             $table->date('due_date');
+            $table->integer('status');
             $table->timestamps();
         });
     }
