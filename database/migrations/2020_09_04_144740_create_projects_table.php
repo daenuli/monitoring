@@ -15,10 +15,15 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id');
-            $table->integer('progress_id');
-            $table->integer('production_area_id');
-            $table->integer('maintenance_area_id');
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('progress_id');
+            $table->unsignedBigInteger('production_area_id');
+            $table->unsignedBigInteger('maintenance_area_id');
+            // $table->foreignId('user_id')->constrained('users');
+            // $table->foreignId('progress_id')->constrained('progress');
+            // $table->foreignId('production_area_id')->constrained('production_areas');
+            // $table->foreignId('maintenance_area_id')->constrained('maintenance_areas');
+
             $table->integer('work_order_number');
             $table->string('name');
             $table->text('description');

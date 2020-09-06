@@ -15,8 +15,11 @@ class CreateProjectInitiationsTable extends Migration
     {
         Schema::create('project_initiations', function (Blueprint $table) {
             $table->id();
-            $table->integer('project_id');
-            $table->integer('inisiasi_id');
+            $table->unsignedBigInteger('project_id');
+            $table->unsignedBigInteger('inisiasi_id');
+            // $table->foreignId('project_id')->constrained('projects');
+            // $table->foreignId('inisiasi_id')->constrained('initiations');
+
             $table->timestamps();
         });
     }

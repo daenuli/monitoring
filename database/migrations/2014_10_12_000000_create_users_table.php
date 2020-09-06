@@ -24,10 +24,16 @@ class CreateUsersTable extends Migration
             $table->boolean('status'); // 0: tidak aktif, 1: aktif
             $table->string('department');
             $table->string('photo')->nullable();
-            $table->integer('discipline_id');
+            $table->unsignedBigInteger('discipline_id');
+            // $table->unsignedBigInteger('discipline_id');
+
+            // $table->foreign('discipline_id')->references('id')->on('disciplines');
+
+            // $table->foreignId('discipline_id')->constrained('disciplines');
             $table->enum('role', ['budgeting', 'planner', 'engineer', 'procurement', 'scheduler', 'ma', 'admin']);
             // $table->rememberToken();
             $table->timestamps();
+            // $table->foreign('discipline_id')->references('id')->on('users');
         });
     }
 
