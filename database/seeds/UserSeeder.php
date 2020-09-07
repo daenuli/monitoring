@@ -112,6 +112,66 @@ class UserSeeder extends Seeder
                 'photo' => null,
                 'discipline_id' => $faker->randomElement($discipline),
                 'role' => 'planner'
+            ],
+            [
+                'nip' => $faker->nik(),
+                'phone' => $faker->phoneNumber,
+                'name' => 'Eko',
+                'email' => 'eko@pertamina.com',
+                'password' => bcrypt(111111),
+                'status' => 1,
+                'department' => 'Planning & Scheduling',
+                'photo' => null,
+                'discipline_id' => $faker->randomElement($discipline),
+                'role' => 'planner'
+            ],
+            [
+                'nip' => $faker->nik(),
+                'phone' => $faker->phoneNumber,
+                'name' => 'Arfian',
+                'email' => 'arfian@pertamina.com',
+                'password' => bcrypt(111111),
+                'status' => 1,
+                'department' => 'Planning & Scheduling',
+                'photo' => null,
+                'discipline_id' => $faker->randomElement($discipline),
+                'role' => 'planner'
+            ],
+            [
+                'nip' => $faker->nik(),
+                'phone' => $faker->phoneNumber,
+                'name' => 'Guntur',
+                'email' => 'guntur@pertamina.com',
+                'password' => bcrypt(111111),
+                'status' => 1,
+                'department' => 'Planning & Scheduling',
+                'photo' => null,
+                'discipline_id' => $faker->randomElement($discipline),
+                'role' => 'planner'
+            ],
+            [
+                'nip' => $faker->nik(),
+                'phone' => $faker->phoneNumber,
+                'name' => 'Jody',
+                'email' => 'jody@pertamina.com',
+                'password' => bcrypt(111111),
+                'status' => 1,
+                'department' => 'Planning & Scheduling',
+                'photo' => null,
+                'discipline_id' => $faker->randomElement($discipline),
+                'role' => 'planner'
+            ],
+            [
+                'nip' => $faker->nik(),
+                'phone' => $faker->phoneNumber,
+                'name' => 'Radyanta',
+                'email' => 'radyanta@pertamina.com',
+                'password' => bcrypt(111111),
+                'status' => 1,
+                'department' => 'Planning & Scheduling',
+                'photo' => null,
+                'discipline_id' => $faker->randomElement($discipline),
+                'role' => 'planner'
             ]
         ]);
     }

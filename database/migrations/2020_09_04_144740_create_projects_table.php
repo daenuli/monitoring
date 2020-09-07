@@ -15,21 +15,19 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->unsignedBigInteger('progress_id');
-            $table->unsignedBigInteger('production_area_id');
-            $table->unsignedBigInteger('maintenance_area_id');
-            // $table->foreignId('user_id')->constrained('users');
-            // $table->foreignId('progress_id')->constrained('progress');
-            // $table->foreignId('production_area_id')->constrained('production_areas');
-            // $table->foreignId('maintenance_area_id')->constrained('maintenance_areas');
-
-            $table->integer('work_order_number');
-            $table->string('name');
+            $table->integer('user_id');
+            $table->integer('production_area_id');
+            $table->integer('maintenance_area_id');
+            $table->string('work_order_number');
+            $table->string('reference_number');
+            $table->string('notification_number');
+            $table->string('purchase_order_number');
+            $table->string('purchase_request_number');
+            $table->string('vendor_name');
             $table->text('description');
             $table->enum('type', ['jasa', 'barang']);
-            $table->date('due_date');
-            $table->integer('status');
+            $table->date('start_date');
+            $table->integer('status'); // 0. Tidak Aktif, 1. Aktif
             $table->timestamps();
         });
     }

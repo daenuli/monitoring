@@ -28,6 +28,12 @@ class MaintenanceAreaSeeder extends Seeder
             ],
             [
                 'name' => 'MA 5'
+            ],
+            [
+                'name' => 'MA 6'
+            ],
+            [
+                'name' => 'MA 7'
             ]
         ]);
     }

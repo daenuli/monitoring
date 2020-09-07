@@ -13,22 +13,15 @@ class ProductionAreaSeeder extends Seeder
     public function run()
     {
         ProductionArea::truncate();
-        ProductionArea::insert([
-            [
-                'name' => 'RFCC'
-            ],
-            [
-                'name' => 'FOC 2'
-            ],
-            [
-                'name' => 'LOC 3'
-            ],
-            [
-                'name' => 'WH'
-            ],
-            [
-                'name' => 'UTL'
-            ]
-        ]);
+        $data = [
+            'FOC 1', 'FOC 2', 'GTO', 'GTO-RFCC', 
+            'HSE', 'UTL', 'LOC III', 'OM 60', 
+            'OM 70', 'PX', 'RFCC', 'SRU', 'UTIL RFCC', 'UTL', 'UTL RFCC'
+        ];
+        foreach ($data as $key => $value) {
+            ProductionArea::insert([
+                'name' => $value
+            ]);
+        }
     }
 }
