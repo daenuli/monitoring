@@ -15,19 +15,10 @@ class InitiationSeeder extends Seeder
         Initiation::truncate();
         Initiation::insert([
             [
-                'name' => 'RKU'
-            ],
-            [
                 'name' => 'RKAP'
             ],
             [
                 'name' => 'Non RKAP'
-            ],
-            [
-                'name' => 'MOC'
-            ],
-            [
-                'name' => 'Surat Urgent'
             ]
         ]);
     }

@@ -18,10 +18,12 @@ class ProjectInitiationSeeder extends Seeder
         $project = Project::all();
         $initiation = Initiation::pluck('id');
         foreach ($project as $key => $value) {
-            for ($i=0; $i < rand(1, count($initiation)); $i++) {
+            foreach ($initiation as $j => $val) {
+            // }
+            // for ($i=0; $i < rand(1, count($initiation)); $i++) {
                 ProjectInitiation::insert([
                     'project_id' => $value->id,
-                    'inisiasi_id' => $initiation[$i],
+                    'inisiasi_id' => $val,
                 ]);
             }
         }

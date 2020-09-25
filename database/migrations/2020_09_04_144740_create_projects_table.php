@@ -16,6 +16,8 @@ class CreateProjectsTable extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id');
+            // $table->integer('inisiasi_id');
+            $table->integer('sub_inisiasi_id');
             $table->integer('production_area_id');
             $table->integer('maintenance_area_id');
             $table->string('work_order_number');
@@ -25,8 +27,10 @@ class CreateProjectsTable extends Migration
             $table->string('purchase_request_number');
             $table->string('vendor_name');
             $table->text('description');
+            $table->text('impact');
             $table->enum('type', ['jasa', 'barang']);
             $table->date('start_date');
+            $table->boolean('is_urgent');
             $table->integer('status'); // 0. Tidak Aktif, 1. Aktif
             $table->timestamps();
         });

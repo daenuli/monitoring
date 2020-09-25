@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateDisciplinesTable extends Migration
+class CreateBudgetDisciplinesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateDisciplinesTable extends Migration
      */
     public function up()
     {
-        Schema::create('disciplines', function (Blueprint $table) {
+        Schema::create('budget_disciplines', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            // $table->boolean('type'); //0: Barang, 1: Jasa
             // $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateDisciplinesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('disciplines');
+        Schema::dropIfExists('budget_disciplines');
     }
 }

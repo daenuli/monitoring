@@ -13,15 +13,12 @@ class CreateProjectInitiationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('project_initiations', function (Blueprint $table) {
-            $table->id();
-            $table->integer('project_id');
-            $table->integer('inisiasi_id');
-            // $table->foreignId('project_id')->constrained('projects');
-            // $table->foreignId('inisiasi_id')->constrained('initiations');
-
-            $table->timestamps();
-        });
+        // Schema::create('project_initiations', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->integer('project_id');
+        //     $table->integer('inisiasi_id');
+        //     $table->timestamps();
+        // });
     }
 
     /**
@@ -31,6 +28,6 @@ class CreateProjectInitiationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('project_initiations');
+        // Schema::dropIfExists('project_initiations');
     }
 }

@@ -18,8 +18,8 @@ class CreateProjectProgressTable extends Migration
             $table->integer('project_id');
             $table->integer('progress_id');
             $table->date('start_date');
-            $table->date('due_date');
-            $table->date('finish_date');
+            $table->date('due_date')->nullable();
+            $table->date('finish_date')->nullable();
             $table->timestamps();
         });
     }

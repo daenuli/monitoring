@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration
             $table->boolean('status'); // 0: tidak aktif, 1: aktif
             $table->string('department');
             $table->string('photo')->nullable();
-            $table->unsignedBigInteger('discipline_id');
+            $table->integer('discipline_id');
             // $table->unsignedBigInteger('discipline_id');
 
             // $table->foreign('discipline_id')->references('id')->on('disciplines');

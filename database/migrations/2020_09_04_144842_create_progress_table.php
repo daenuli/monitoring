@@ -16,6 +16,10 @@ class CreateProgressTable extends Migration
         Schema::create('progress', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->integer('estimation');
+            $table->enum('type', ['jasa', 'barang']);
+            $table->boolean('is_urgent');
+            // $table->integer('type');
             // $table->timestamps();
         });
     }

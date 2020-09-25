@@ -18,18 +18,49 @@ class ProjectProgressSeeder extends Seeder
         $faker = Faker\Factory::create();
         ProjectProgress::truncate();
         $project = Project::all();
-        $progress = Progress::orderBy('id')->pluck('id');
+        $this->command->getOutput()->progressStart($project->count());
         foreach ($project as $key => $value) {
-            for ($i=0; $i < rand(1, count($progress)); $i++) { 
-                $random = rand(1, 7);
-                ProjectProgress::insert([
+            $estimation = [];
+            $startDate = $value->start_date;
+            $progress = Progress::orderBy('id', 'asc')->where([
+                ['type', $value->type],
+                ['is_urgent', $value->is_urgent]
+            ])->get();
+            foreach($progress as $i => $row) {
+                $PP = ProjectProgress::where('project_id', $value->id)
+                        ->orderBy('id', 'desc')
+                        ->value('finish_date');
+                $estimation[$i] = $row->estimation;
+
+                $H_min_due_date = Carbon::parse($startDate)->addDays(array_sum($estimation) - 1);
+                $H_plus_due_date = Carbon::parse($startDate)->addDays(array_sum($estimation) + rand(0, 2));
+
+                $due_date = Carbon::parse($startDate)->addDays(array_sum($estimation));
+                $min_due_date = Carbon::parse($startDate)->addDays(array_sum($estimation)-1);
+
+                $start = ($PP) ? $PP : $startDate;
+                $finish_date = rand(0, 1) ? $H_min_due_date : $H_plus_due_date;
+
+                if ($due_date->diffInDays($start) == 0 ||$due_date->diffInDays($start) == 1) {
+                    $finish_date = rand(0, 1) ? $due_date : $H_plus_due_date;
+                } 
+
+                // if ($due_date->diffInDays($start) == 1) {
+                //     $finish_date = rand(0, 1) ? $due_date : $H_plus_due_date;
+                // }
+                
+                ProjectProgress::create([
                     'project_id' => $value->id,
-                    'progress_id' => $progress[$i],
-                    'start_date' => $value->start_date,
-                    'due_date' => Carbon::parse($value->start_date)->addDays(($key+1) + $random),
-                    'finish_date' => Carbon::parse($value->start_date)->addDays(($key+1) + $random + (rand(0, 1) ? rand(1, 2) : - rand(1, 3))),
+                    'progress_id' => $row->id,
+                    'start_date' => $start,
+                    'due_date' => $due_date,
+                    // 'finish_date' => $min_due_date
+                    // 'finish_date' => $due_date
+                    'finish_date' => $finish_date
                 ]);
             }
+            $this->command->getOutput()->progressAdvance();
         }
+        $this->command->getOutput()->progressFinish();
     }
 }
