@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 use Carbon\Carbon;
 
 Route::get('/', function () {
+    return redirect('login');
     // return view('welcome');
     return Carbon::now()->addDays(2);
 });
 Route::get('read_csv', 'ReadCsvController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
