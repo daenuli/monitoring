@@ -65,7 +65,7 @@
     </head>
     <body>
            
-    <iframe width="1920" height="1080" src="https://app.powerbi.com/reportEmbed?reportId=d8fa696d-691b-41fe-82b5-0a1025c66cb3&autoAuth=true&ctid=736979ce-1203-4898-810b-8ad6f483701c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe width="1280" height="720" src="https://app.powerbi.com/reportEmbed?reportId=d8fa696d-691b-41fe-82b5-0a1025c66cb3&autoAuth=true&ctid=736979ce-1203-4898-810b-8ad6f483701c&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
 
     </body>
 </html>
