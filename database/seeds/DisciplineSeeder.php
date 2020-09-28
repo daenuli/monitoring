@@ -15,19 +15,24 @@ class DisciplineSeeder extends Seeder
         Discipline::truncate();
         Discipline::insert([
             [
-                'name' => 'IR'
+                'name' => 'IR',
+                'description' => 'Instrumen'
             ],
             [
-                'name' => 'MR'
+                'name' => 'MR',
+                'description' => 'Mekanik' 
             ],
             [
-                'name' => 'ER'
+                'name' => 'ER',
+                'description' => 'Elektrikal' 
             ],
             [
-                'name' => 'RR'
+                'name' => 'RR',
+                'description' => 'Rotating' 
             ],
             [
-                'name' => 'CR'
+                'name' => 'CR',
+                'description' => 'Sipil' 
             ]
         ]);
     }

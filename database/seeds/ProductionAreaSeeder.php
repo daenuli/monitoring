@@ -16,7 +16,7 @@ class ProductionAreaSeeder extends Seeder
         $data = [
             'FOC 1', 'FOC 2', 'GTO', 'GTO-RFCC', 
             'HSE', 'UTL', 'LOC III', 'OM 60', 
-            'OM 70', 'PX', 'RFCC', 'SRU', 'UTIL RFCC', 'UTL', 'UTL RFCC'
+            'OM 70', 'PX', 'RFCC', 'SRU', 'UTIL RFCC', 'UTL', 'UTL RFCC', 'ALL AREA'
         ];
         foreach ($data as $key => $value) {
             ProductionArea::insert([
