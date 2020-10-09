@@ -24,7 +24,7 @@ class DisciplineSeeder extends Seeder
             ],
             [
                 'name' => 'ER',
-                'description' => 'Elektrikal' 
+                'description' => 'Electrical' 
             ],
             [
                 'name' => 'RR',

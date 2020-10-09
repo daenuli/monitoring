@@ -22,10 +22,20 @@ class ProjectProgressSeeder extends Seeder
         foreach ($project as $key => $value) {
             $estimation = [];
             $startDate = $value->start_date;
+
+            // $total = Progress::orderBy('id', 'asc')->where([
+            //     ['type', $value->type],
+            //     ['is_urgent', $value->is_urgent]
+            // ])->count();
+
+            // $limit = rand(1, $total);
+
             $progress = Progress::orderBy('id', 'asc')->where([
                 ['type', $value->type],
                 ['is_urgent', $value->is_urgent]
             ])->get();
+            // ])->inRandomOrder()->limit($limit)->get();
+
             foreach($progress as $i => $row) {
                 $PP = ProjectProgress::where('project_id', $value->id)
                         ->orderBy('id', 'desc')

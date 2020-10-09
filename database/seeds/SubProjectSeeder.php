@@ -14,11 +14,15 @@ class SubProjectSeeder extends Seeder
     {
         $faker = Faker\Factory::create();
 
-        $parents = Project::where('id', '<=', 20)->whereNull('parent_id')->pluck('id');
-        
-        $project = Project::where('id', $faker->unique()->numberBetween(30,100))->whereNull('parent_id')->pluck('id');
+        $parents = Project::where('id', '<=', 20)->pluck('id');
+        $project = Project::where([
+            ['id', '>', 30],
+            ['id', '<', 100]
+        ])->whereNull('parent_id')->get();
         foreach ($project as $key => $value) {
-            Project::where('id');
+            Project::where('id', $value->id)->update([
+                'parent_id' => $faker->randomElement($parents)
+            ]);
         }
     }
 }

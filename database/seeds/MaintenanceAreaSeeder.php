@@ -13,28 +13,14 @@ class MaintenanceAreaSeeder extends Seeder
     public function run()
     {
         MaintenanceArea::truncate();
-        MaintenanceArea::insert([
-            [
-                'name' => 'MA 1'
-            ],
-            [
-                'name' => 'MA 2'
-            ],
-            [
-                'name' => 'MA 3'
-            ],
-            [
-                'name' => 'MA 4'
-            ],
-            [
-                'name' => 'MA 5'
-            ],
-            [
-                'name' => 'MA 6'
-            ],
-            [
-                'name' => 'MA 7'
-            ]
-        ]);
+        $MA = [
+            'MA 1', 'MA 2', 'MA 3', 'MA 4', 'MA 5', 'MA 6', 'MA 7', 
+            'Workshop', 'EIIE', 'P&S', 'General Maintenance', 'SSIE', 'Stat. Eng'
+        ];
+        foreach ($MA as $key => $value) {
+            MaintenanceArea::insert([
+                'name' => $value
+            ]);
+        }
     }
 }

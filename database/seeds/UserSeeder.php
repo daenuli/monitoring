@@ -14,165 +14,79 @@ class UserSeeder extends Seeder
     public function run()
     {
         $faker = Faker\Factory::create("id_ID");
-        $discipline = Discipline::pluck('id');
-        User::truncate();
-        User::insert([
+        // $discipline = Discipline::pluck('id');
+        $users = [
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Tyffani Meirnadias',
-                'email' => 'tyffani@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Rotating',
+                'name' => 'Aulia Gunawan'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Dwi Hizzki Hanisa',
-                'email' => 'dwi@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Rotating',
+                'name' => 'Baskoro Adiputro Purwono'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Baskoro Adiputro Purwono',
-                'email' => 'baskoro@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Mekanik',
+                'name' => 'Nurul Komari'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Diny Gavisa',
-                'email' => 'diny@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Mekanik',
+                'name' => 'Guntur Yulianto'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Aulia Gunawan',
-                'email' => 'aulia@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Mekanik',
+                'name' => 'Eko Prasetyo'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Niluh Made Dwita Ginantar',
-                'email' => 'dwita@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Sipil',
+                'name' => 'Niluh Made Dwita Ginantari'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Andy Sigit Arifianto',
-                'email' => 'andy@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Mekanik',
+                'name' => 'Trawan Hardani'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Trawan Hardani',
-                'email' => 'trawan@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Instrumen',
+                'name' => 'Tyffani Meirnadias'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Eko',
-                'email' => 'eko@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Instrumen',
+                'name' => 'Dwi Hizzki Hanisa'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Arfian',
-                'email' => 'arfian@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Electrical',
+                'name' => 'Jody Raditya Siswandito'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Guntur',
-                'email' => 'guntur@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Electrical',
+                'name' => 'Dini Gavisa'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Jody',
-                'email' => 'jody@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Sipil',
+                'name' => 'Arfiansyah Galih Saputra'
             ],
             [
-                'nip' => $faker->nik(),
-                'phone' => $faker->phoneNumber,
-                'name' => 'Radyanta',
-                'email' => 'radyanta@pertamina.com',
-                'password' => bcrypt(111111),
-                'status' => 1,
-                'department' => 'Planning & Scheduling',
-                'photo' => null,
-                'discipline_id' => $faker->randomElement($discipline),
-                'role' => 'planner'
+                'discipline' => 'Rotating',
+                'name' => 'Radyanta Purwonugroho'
             ]
-        ]);
+        ];
+
+        User::truncate();
+
+        foreach ($users as $key => $value) {
+            $discipline = Discipline::where('description', $value['discipline'])->value('id');
+            // $this->command->info("Disciplin : ".$value['discipline']);
+            User::insert([
+                'nip' => $faker->nik(),
+                'phone' => $faker->phoneNumber,
+                'name' => $value['name'],
+                'email' => strtolower(explode(' ',$value['name'])[0]).'@pertamina.com',
+                'password' => bcrypt(111111),
+                'status' => 1,
+                'department' => 'Planning & Scheduling',
+                'photo' => null,
+                'discipline_id' => $discipline,
+                'role' => 'planner'
+            ]);
+        }
     }
 }

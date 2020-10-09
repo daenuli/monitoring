@@ -14,123 +14,126 @@ class ProgressSeeder extends Seeder
     {
         Progress::truncate();
         Progress::insert([
+
+            // Jasa Non Urgent
             [
                 'name' => 'Sourcing',
-                'estimation' => 10,
-                'type' => 'jasa',
-                'is_urgent' => 0
-            ],
-            [
-                'name' => 'Penyusunan RKS & RAB',
                 'estimation' => 15,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Review & Revisi RKS',
-                'estimation' => 10,
+                'name' => 'Penyusunan RKS & RAB',
+                'estimation' => 30,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Kirim Paket',
+                'name' => 'Review & Revisi RKS',
+                'estimation' => 6,
+                'type' => 'jasa',
+                'is_urgent' => 0
+            ],
+            [
+                'name' => 'Izin Prinsip/ Persetujuan',
+                'estimation' => 7,
+                'type' => 'jasa',
+                'is_urgent' => 0
+            ],
+            [
+                'name' => 'Pengajuan Proses Tender',
                 'estimation' => 2,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Pra Kualifikasi',
-                'estimation' => 5,
-                'type' => 'jasa',
-                'is_urgent' => 0
-            ],
-            [
-                'name' => 'Aanwijzing',
-                'estimation' => 5,
+                'name' => 'Pre bid meeting',
+                'estimation' => 14,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
                 'name' => 'Approval HPS OE',
-                'estimation' => 5,
+                'estimation' => 14,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
                 'name' => 'Open Bid',
-                'estimation' => 5,
+                'estimation' => 14,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'LH Pemenang',
-                'estimation' => 3,
+                'name' => 'Penunjukan Pemenang',
+                'estimation' => 14,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
                 'name' => 'Penerbitan SP3MK',
-                'estimation' => 5,
+                'estimation' => 4,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
             [
                 'name' => 'SPB',
-                'estimation' => 25,
+                'estimation' => 30,
                 'type' => 'jasa',
                 'is_urgent' => 0
             ],
 
+            // Jasa Urgent
             [
                 'name' => 'Sourcing',
-                'estimation' => 1,
+                'estimation' => 5,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
                 'name' => 'Penyusunan RKS & RAB',
-                'estimation' => 2,
+                'estimation' => 7,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
                 'name' => 'Review & Revisi RKS',
-                'estimation' => 2,
+                'estimation' => 0,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
-                'name' => 'Kirim Paket',
+                'name' => 'Izin Prinsip/ Persetujuan',
                 'estimation' => 1,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
-                'name' => 'Pra Kualifikasi',
+                'name' => 'Pengajuan Proses Tender',
                 'estimation' => 1,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
-                'name' => 'Aanwijzing',
+                'name' => 'Pre bid meeting',
                 'estimation' => 1,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
                 'name' => 'Approval HPS OE',
-                'estimation' => 1,
+                'estimation' => 0,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
                 'name' => 'Open Bid',
-                'estimation' => 2,
+                'estimation' => 1,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
             [
-                'name' => 'LH Pemenang',
+                'name' => 'Penunjukan Pemenang',
                 'estimation' => 1,
                 'type' => 'jasa',
                 'is_urgent' => 1
@@ -143,66 +146,108 @@ class ProgressSeeder extends Seeder
             ],
             [
                 'name' => 'SPB',
-                'estimation' => 1,
+                'estimation' => 30,
                 'type' => 'jasa',
                 'is_urgent' => 1
             ],
 
-            
-
             // Barang
             [
-                'name' => 'Reservasi Gudang',
-                'estimation' => 3,
-                'type' => 'barang',
-                'is_urgent' => 0
-            ],
-            [
                 'name' => 'Sourcing',
-                'estimation' => 7,
+                'estimation' => 14,
                 'type' => 'barang',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Buat KIMAP',
+                'name' => 'Review Spesifikasi',
+                'estimation' => 10,
+                'type' => 'barang',
+                'is_urgent' => 0
+            ],
+            [
+                'name' => 'Approval HPS OE',
+                'estimation' => 14,
+                'type' => 'barang',
+                'is_urgent' => 0
+            ],
+            [
+                'name' => 'Pengajuan Proses Tender',
                 'estimation' => 2,
                 'type' => 'barang',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Purchase Request',
-                'estimation' => 3,
+                'name' => 'Pre bid meeting',
+                'estimation' => 15,
                 'type' => 'barang',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Purchase Order',
-                'estimation' => 3,
+                'name' => 'Open bid',
+                'estimation' => 15,
                 'type' => 'barang',
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Good receive',
-                'estimation' => 3,
-                'type' => 'barang',
-                'is_urgent' => 0
-            ],
-            [
-                'name' => 'Good Issue',
-                'estimation' => 3,
+                'name' => 'Penunjukan Pemenang',
+                'estimation' => 15,
                 'type' => 'barang',
                 'is_urgent' => 0
             ],
 
             [
-                'name' => 'Reservasi Gudang',
-                'estimation' => 3,
+                'name' => 'Terbit PO',
+                'estimation' => 15,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+
+            [
+                'name' => 'Sourcing',
+                'estimation' => 14,
                 'type' => 'barang',
                 'is_urgent' => 1
             ],
             [
-                'name' => 'Good Issue',
-                'estimation' => 3,
+                'name' => 'Review Spesifikasi',
+                'estimation' => 10,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+            [
+                'name' => 'Approval HPS OE',
+                'estimation' => 14,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+            [
+                'name' => 'Pengajuan Proses Tender',
+                'estimation' => 2,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+            [
+                'name' => 'Pre bid meeting',
+                'estimation' => 15,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+            [
+                'name' => 'Open bid',
+                'estimation' => 15,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+            [
+                'name' => 'Penunjukan Pemenang',
+                'estimation' => 15,
+                'type' => 'barang',
+                'is_urgent' => 1
+            ],
+
+            [
+                'name' => 'Terbit PO',
+                'estimation' => 15,
                 'type' => 'barang',
                 'is_urgent' => 1
             ]

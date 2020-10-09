@@ -47,7 +47,7 @@ class ProjectSeeder extends Seeder
             Project::insert([
                 'user_id' => $faker->randomElement($user),
                 'sub_inisiasi_id' => $faker->randomElement($subinisiasi),
-                'production_area_id' => $faker->randomElement($pa),
+                // 'production_area_id' => $faker->randomElement($pa),
                 'maintenance_area_id' => $faker->randomElement($ma),
                 'work_order_number' => !empty($value[4]) ? $value[4] : '82010'.$faker->numberBetween($min = 10000, $max = 90000),
                 'reference_number' => !empty($value[1]) ? $value[1] : $faker->numberBetween($min = 10000, $max = 90000),

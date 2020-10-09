@@ -21,19 +21,11 @@ class SubInitiationSeeder extends Seeder
             ],
             [
                 'inisiasi_id' => 1,
-                'name' => 'RKAP Prioritas'
+                'name' => 'RKAP'
             ],
             [
                 'inisiasi_id' => 1,
                 'name' => 'MOC'
-            ],
-            [
-                'inisiasi_id' => 1,
-                'name' => 'RKU'
-            ],
-            [
-                'inisiasi_id' => 1,
-                'name' => 'RKAP Prioritas'
             ],
             [
                 'inisiasi_id' => 2,
