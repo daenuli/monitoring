@@ -12,31 +12,18 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-use Carbon\Carbon;
-use App\Models\SubInitiation;
-use App\User;
+use App\Models\ProductionArea;
 
 Route::get('/', function () {
-    // Detect alpha inside Start Date
-    // $datez = 'Agus 2020';
-    // $datez = '20/10/2020';
-    // if (preg_match('/[a-zA-Z]+/i', $datez, $matches)) {
-    //     return $matches;
-    // } else {
-    //     return $datez;
-    // }
-    // $stringx = '123e';
-    // // $stringx = '8201031284, 8201031285';
-    // if (!preg_match('/[0-9]+/i', $stringx, $matches)) {
-    //     return 'null';
-    // } else {
-    //     return $stringx;
-    // }
-    $planner_id = User::where('name', 'LIKE', '%Guntur Yulianto%')->get();
-
-    // $sub_inisiasi_id = SubInitiation::where('name', 'LIKE', 'rkap%')->get();
-return $planner_id;
+    // $data = 'LOC II, LOC III, PARAXYLENE, UTILITIES RFCC, RFCC, FOC I';
+    $data = 'SRU, UTILITIES 50';
+    $AH = explode(', ', $data);
+    foreach ($AH as $ex => $vl) {
+        $PA = ProductionArea::where('name', $vl)->first();
+        echo $PA->id.'<br>';
+    }
+    dd($AH);
+    return '';
     return view('welcome');
-    return Carbon::now()->addDays(2);
 });
 Route::get('read_csv', 'ReadCsvController@index');

@@ -1,182 +1,31 @@
-1;Perbaikan Pompa 38P112A/B;Non RKAP;"8201031284, 8201031285";"500026567, 500026568";;Jasa;0;14/8/2020;pre bid meeting;25/9/2020;WS;"OM (30, 40, 60 NBM)";;;;Ramadhan Budianto;;;Baskoro Adiputro Purwono;
-2;Fabrikasi Volute Casing Blower 84K251;Non RKAP;8201031319;500026639;;Jasa;0;20/7/2020;pengajuan proses tender;22/9/2020;WS;KPC (80);;;;;;;Baskoro Adiputro Purwono;
-3;Kontrak Tenaga Bantu Perbaikan Kompresor 12K1B;Non RKAP;8201031581;;;Jasa;0;20/9/2020;pengajuan proses tender;29/9/2020;MA 1;FOC I;;;;;;;Baskoro Adiputro Purwono;
-4;Perbaikan Fin Fan 85E215D;Non RKAP;8201031134;500026498;;Jasa;0;31/8/2020;LH pemenang;29/9/2020;MA 4;KPC (80);;;;Rangga Dewana;;;Baskoro Adiputro Purwono;
-5;Fabrikasi Shaft 011P113A;Non RKAP;8201030997;500026451;;Jasa;0;6/8/2020;Penerbitan SP3MK;21/9/2020;WS;FOC II;;;;Ramadhan Budianto;;;Baskoro Adiputro Purwono;
-6;Upgrade PLP IPAL-DAF Skid;RKAP;2101038734;8201022201;500021537;Jasa;1;Juni 2020;SPB;20/8/2020;MA 1;IPAL;"Menunggu Kick Off Meeting, Menunggu Dokumen SPB/PO";Aug-20;;Ramadhan Budianto;PT Transavia Otomasi;;Tyffani Meirnadias;
-7;Recommissioning APC CDU I;RKAP;1101013063;8301061884;500023106;Jasa;0;20/03/2020;LH Pemenang;16/9/2020;MA 1;FOC I;Menunggu Penunjukan Pemenang;16/09/2020;;Dhika Noor Fadilla;PT Azbil Berca Indonesia;;Tyffani Meirnadias;
-8;Kontrak Tenaga Ahli Programmer MPS / Dashboard Monitoring;Non RKAP;-;-;300059184;Jasa;1;May-20;SPB;24/8/2020;P&S;All Area;Menunggu Dokumen SPB/PO;27/07/2020;;Dhika Noor Fadilla;PT Cahaya Turangga Sakti;No. 222/E14150/2020-S0;Tyffani Meirnadias;
-9;"Digitalisasi Asset Area Kilang RFCC, KPC, FOC II";Non RKAP;1101015750;8301077430;500025709;Jasa;0;26/06/2020;SPB;24/7/2020;EIIE;All Area;Menunggu Dokumen SPB/PO;24/07/2020;;Dhika Noor Fadilla;KOPAMA;No. 227/E14100/2020-S0;Tyffani Meirnadias;
-10;PM Field Instrument ME I;Non RKAP;-;-;800001673;Jasa;0;20/07/2020;SPB;20/9/2020;MA 2;FOC II;Menunggu Dokumen SPB/PO;Sep-20;;Dhika Noor Fadilla;PT Cahaya Turangga Sakti;No. 247/E14150/2020-S0;Tyffani Meirnadias;
-11;PM Field Instrument ME II;Non RKAP;-;-;800001692;Jasa;0;20/07/2020;SPB;20/9/2020;MA 6;RFCC (104);Menunggu Dokumen SPB/PO;Sep-20;;Dhika Noor Fadilla;PT Cahaya Turangga Sakti;;Tyffani Meirnadias;
-12;Penggantian PLC BMS 260F-101;RKAP;2101047867;8201026391;500024099;Jasa;0;20/05/2020;Approval HPS OE;1/9/2020;MA 4;LOC III;"Terhadap penggantian scope, pekerjaan Hold, hingga ada rekomendasi baru EIIE";04/09/2020;;M. Rangga Dewana;;;Tyffani Meirnadias;
-13;Penyehatan Inst. Substandard PX Area B&C;RKAP;1101015880;8301078571;500025894;Jasa;0;13/07/2020;Approval HPS OE;24/9/2020;MA 4;KPC (80);;;;Dhika Noor Fadilla;;;Tyffani Meirnadias;
-14;TSA FGDS SIEGER HONEY WELL;RKAP;-;-;800001732;Jasa;0;01/03/2020;Pre bid meeting;24/6/2020;MA 1;SRU;Calon Penyedia Jasa belum memenuhi kriteria untuk dapat melakukan tender;Jul-20;;;;;Tyffani Meirnadias;
-15;TSA SPARING;Non RKAP;-;-;;Jasa;0;24/08/2020;Izin prinsip / persetujuan;24/8/2020;MA 3 ;"OM (30, 40, 60 NBM)";Menunggu Factory Quotation;24/08/2020;;;PT Chemviro Buana;;Tyffani Meirnadias;
-16;Pengadaan Jasa Asisten Pengawas ME II;Non RKAP;-;-;300062634;Jasa;0;11/09/2020;Approval HPS OE;28/9/2020;MA 6;;;;;Mugi Nurdini;PT Cahaya Turangga Sakti;;Tyffani Meirnadias;
-17;Pemasangan Baru DCS OM 70;RKAP;1101013568;8301083301;500026706;Jasa;0;28/09/2020;Izin Prinsip / persetujuan;1/10/2020;MA 3 ;OM 70;Perlu pembuatan izin prinsip karena justifikasi dari REL tidak mutlak hanya dapat dipilih 1 (satu) penyedia jasa;30/09/2020;;;PT Vania Amicitia;;Tyffani Meirnadias;
-18;Pemasangan Flowmeter Drainase Jalan A dan N;Non RKAP;2101048268;;;Jasa;0;08/05/2020;Izin Prinsip / persetujuan;28/9/2020;MA 3 ;"OM (30, 40, 60 NBM)";"Pihak Manufacture yang direkomendasikan EIIE (Endress Hauser) perlu melakukan site survey sebelum dapat mengirimkan Quotation kepada Pertamina, site survey terkendala karena alasan PSBB-covid";21/09/2020;;;;;Tyffani Meirnadias;
-19;Penyehatan Inst. & Elect. Substandard UTL RFCC;RKAP;2101057041;;;Jasa;0;02/10/2020;Penyusunan RKS & RAB;15/9/2020;MA 5;UTL RFCC;Menunggu Notif NOPR;02/10/2020;;;;;Tyffani Meirnadias;
-20;Retrofit Control System Pneumix 101-A-525B Area RFCC RUIV Cilacap;Non RKAP;;;;Jasa;0;29/09/2020;Penyusunan RKS & RAB;4/10/2020;MA 6;;Menunggu Notifikasi Pekerjaan;04/10/2020;;;;;Tyffani Meirnadias;
-21;"Managemen Data Engineering dan Monitoring Pekerjaan Pemeliharaan Equipment Stasionary, Rotating Listrik dan Instrument di Area PT PERTAMINA (PERSERO) RU IV Cilacap";Non RKAP;-;-;;Jasa;0;02/10/2020;Sourcing;2/10/2020;P&S;MPS;Perpanjang kontrak Volume Asisten Planner dan Tenaga Expert P&S untuk tahun 2021;02/10/2020;;;;;Tyffani Meirnadias;
-22;Penggantian Surge Protection Device Area Utilities RFCC;Non RKAP;1101015751;8301077498;500025760;Jasa;0;30/9/2020;Penerbitan SP3MK;30/9/2020;MA 5;UTL RFCC;;;;Ramadhan Budianto;PT Jesfindo Mitra Pratama;;Dwi Hizzki Hanisa;
-23;TSA ATG Tikyo Keiso Area RFCC dan GTO;RKAP;(Tidak ada);(tidak ada);800001820;Jasa;0;1/9/2020;Pre bid meeting;1/9/2020;MA 7;;Fiksasi lingkup pekerjaan penyehatan oleh engineer;21/09/2020;;Ramadhan Budianto;PT Multi Kedona Teknik;;Dwi Hizzki Hanisa;
-24;Perbaikan Anti Surge Controller DPAC 156K-502 A/B UTL RFCC;RKAP;2101040486;8201024971;500023242;Jasa;0;1/8/2020;Sourcing;1/8/2020;MA 5;UTL RFCC;"Vendor tidak menyanggupi lingkup pekerjaan sesuai yang ditawarakn, engineer belum memberi rekomendasi lebih lanjut.";21/09/2020;;-;-;;Dwi Hizzki Hanisa;
-25;Penggantian Sensor COD SPARING Holding Basin;Non RKAP;2101048850;8201028541;500025217;Jasa;0;1/9/2020;;1/9/2020;MA 3 ;"OM (30, 40, 60 NBM)";"Tidak tercapainya kesepakatan dengan harga vendor, rencana penarikan paket dan perubahan lingkup";22/09/2020;;D.C Mirmaningktyas;PT Chemviro Buana Indonesia;;Dwi Hizzki Hanisa;
-26;"Pengadaan Remote Monitoring DCS dengan Experion e-Server Area FOC II, RFCC, dan LNHT ISOM";Non RKAP;1101015897;Belum ada;Belum ada;Jasa;0;28/9/2020;LH Pemenang;28/9/2020;EIIE;FOC II;;;;;PT Vania Amicitia;;Dwi Hizzki Hanisa;
-27;Pengadaan Field Device Manager Honeywell KPC;Non RKAP;1101015759;Belum ada;Belum ada;Jasa;0;28/9/2020;LH pemenang;28/9/2020;MA 4;KPC (80);;;;;PT Vania Amicitia;;Dwi Hizzki Hanisa;
-28;TSA Alat Lab X-Ray Rigaku ZSX Primus;RKAP;(tidak ada);(tidak ada);(tidak ada);Jasa;0;11/9/2020;Sourcing;11/9/2020;WS;Laboratorium;Vendor belum memberikan penawaran harga;11/09/2020;;;PT Lab Sistematika Indonesia;;Dwi Hizzki Hanisa;
-29;Pemasangan Shut Off Valve di 520B-301 dan Perbaikan 104XV-045B/046B;RKAP;1101005544;8301049416;8301049416;Jasa;0;21/9/2020;Approval HPS OE;21/9/2020;MA 5;UTL RFCC;Menunggu klarifikasi engineer terkait perbedaan spek material di memo rekomendasi dan KAK terakhir. Notulen rapat pembahasan perubahan material tersebut tidak ada;21/09/2020;;Dhika Noor Fadila;PT Contromatic Prima Mandiri;;Dwi Hizzki Hanisa;
-30;Perbaikan Timbangan Asphalt Drum Plant Oil OM NBM;;Belum ada;Belum ada;Belum ada;Jasa;0;11/8/2020;Penyusunan RKS & RAB;11/8/2020;MA 3 ;"OM (30, 40, 60 NBM)";"Menunggu rekomendasi SSIE untuk perbaikan pelat dan pondasi, sesuai permintaan memo rekomendasi EIIE";17/08/2020;;;;;Dwi Hizzki Hanisa;
-31;TSA Pemeliharaan 2 Unit Continuous Emission Monitoring System (CEMS) di Area SRU dan Utilities 50;RKAP;(Tidak ada);(tidak ada);(tidak ada);Jasa;0;30/8/2020;;30/8/2020;MA 5;SRU;;;;;;;Dwi Hizzki Hanisa;
-32;Pemasangan 9 Unit ATG Radar Area OM;RKAP;1101006009;8301037686;8301037686;Jasa;0;15/7/2020;Sourcing;15/7/2020;MA 3 ;"OM (30, 40, 60 NBM)";Peserta tender belum mengirimkan penawaran harga;31/08/2020;;Mugi Nurdini;;;Dwi Hizzki Hanisa;
-33;Pemasangan CO Detector di CO Boiler 101F-503 RFCC;RKAP;2101035207;8201019731;8201019731;Jasa;0;6/10/2020;Pre bid meeting;6/10/2020;MA 6;;;;;Mugi Nurdini;;;Dwi Hizzki Hanisa;
-34;Pengadaan Desuperheater dan Instrumentasi di Letdown HHP-HP Steam System Area Utilities RFCC;MOC;1101016786;8301083292;8301083292;Jasa;0;30/9/2020;Pengajuan Proses Tender;30/9/2020;MA 5;UTL RFCC;;;;;;;Dwi Hizzki Hanisa;
-35;TSA Online Analyzer OEM Teledyne;RKAP;(tidak ada);(tidak ada);(tidak ada);Jasa;0;25/9/2020;Pre bid meeting;25/9/2020;MA 6;LOC II;;;;Dhika Noor Fadila;;;Dwi Hizzki Hanisa;
-36;TSA Sulfur Analyzer Malvern Panalytical;RKAP;(tidak ada);(tidak ada);(tidak ada);Jasa;0;28/9/2020;Sourcing;28/9/2020;WS;Laboratorium;;;;;;;Dwi Hizzki Hanisa;
-37;Program CUI MA 2;Non RKAP;1101016201;8301080699;500026247;Jasa;0;28/8/2020;Pengajuan Proses tender;;MA 2;UTL RFCC;;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-38;Program CUI MA 3;RKAP;1101016202;8301080709;500026281;Jasa;0;28/8/2020;Pengajuan Proses tender;;MA 3 ;;;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-39;Program CUI MA 4;RKAP;1101016242;8301080710;500026280;Jasa;0;28/8/2020;Pengajuan Proses tender;;MA 4;UTL RFCC;;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-40;Program CUI MA 1;Non RKAP;1101016250;8301081543;800001923;Jasa;0;30/8/2020;Pengajuan Proses tender;;MA 1;"OM (30, 40, 60 NBM)";;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-41;Program CUI MA 5;Non RKAP;1101016243;8301081546;80001897;Jasa;0;30/8/2020;Pengajuan Proses tender;;MA 5;FOC II;;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-42;Pembangunan DCU pintu 3;Non RKAP;1101016720;8301082949;500026700;Jasa;0;25/9/2020;Pengajuan Proses tender;;GENMAINT;KPC (80);;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-43;Pengecatan Lantai Workshop;Non RKAP;1101015860;8301079661;500024523;Jasa;1;;Approval HPS OE;;GENMAINT;Laboratorium;;;;Mugi Nurdini;;;Arfiansyah Galih Saputra;
-44;Renovasi HO lantai 4;RKAP;;;300058378;Jasa;0;8/4/2020;Pengajuan Proses Tender;;GENMAINT;UTL RFCC;Menunggu Nego;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-45;Pembuatan Gedung MA 1;;1101015698;8301077366;500025752;Jasa;0;6/7/2020;Pre bid meeting;;GENMAINT;"OM (30, 40, 60 NBM)";;;;Ramadhan Budianto;;;Arfiansyah Galih Saputra;
-46;Renovasi Pos 70 menjadi gedung P3K;;1101016677;8301082323;500026552;Jasa;0;14/9/2020;Pengajuan Proses Tender;;GENMAINT;SRU;;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-47;Unit Price Pengecatan di Area MA 6 tahap 2021;;2101056480;8201031311;500025828;Jasa;0;24/9/2020;Pengajuan Proses Tender;;MA 6;"OM (30, 40, 60 NBM)";;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-48;Pembangunan Gate 2;MOC;1101009626;8301048791;500020446;Jasa;0;10/3/2020;Pre Bid Meeting;;GENMAINT;;Fixasi Spesifikasi bidang electrical dari EIIE;;;Mugi Nurdini;;;Arfiansyah Galih Saputra;
-49;Pembangunan Gate 3;;1101009627;8301048792;500020445;Jasa;0;5/3/2020;Pre bid meeting;;GENMAINT;UTL RFCC;;;;Mugi Nurdini;;;Arfiansyah Galih Saputra;
-50;Pembangunan kolam ikan dan joglo GS;;;;;Jasa;1;;;;GENMAINT;;Proses Desain Joglo;;;;;;Arfiansyah Galih Saputra;
-51;Pembangunan Gate Lomanis;;;;;Jasa;1;;;;GENMAINT;;Proses Desain (referensi desain SIMA gate lomanis);;;;;;Arfiansyah Galih Saputra;
-52;Pembangunan Gate Gunung Simping;;;;;Jasa;1;;;;GENMAINT;;Proses Desain (referensi desain SIMA gate lomanis);;;;;;Arfiansyah Galih Saputra;
-53;Renovasi Gedung Indor Voli Lomanis;;;;;Jasa;1;;Penyusunan RKS & RAB;;GENMAINT;;Pembuatan RAB;;;;;;Arfiansyah Galih Saputra;
-54;Pembuatan Lapangan Panahan dan Tembak Katilayu;;;;;Jasa;1;;;;GENMAINT;;Proses Design;;;;;;Arfiansyah Galih Saputra;
-55;Perbaikan Power House Utilities;;2101055041;;;Jasa;1;;;;MA 5;;Diperlukan survey lapangan dikarenakan tidak ada detail drawing;;;;;;Arfiansyah Galih Saputra;
-56;Cleaning sewer GTO;;;;;Jasa;1;;;;MA 7;;;;;;;;Arfiansyah Galih Saputra;
-57;Pembuatan Digital Center Refinery Unit IV Cilacap di Lantai 3 HO Lama (Ex Ruangan PE);;;;;Jasa;1;;;;GENMAINT;;;;;;;;Arfiansyah Galih Saputra;
-58;"Relokasi gedung CR OM ke dining room, serta dining room di ex OM 60";;;;;Jasa;1;;;;GENMAINT;;;;;;;;Arfiansyah Galih Saputra;
-59;Unit Price Kontrak Perbaikan kecil gedung 70 tahun 2021;;2101056628;8201031721;;Jasa;1;;;;MA 3 ;;On progress kirim memo paket ke CO;;;;;;Arfiansyah Galih Saputra;
-60;Ekspansi Gedung Satellite Room 200BD1 di LOC III;;;;;Jasa;1;;Penyusunan RKS & RAB;;MA 4;;Menunggu RAB electrical;;;;;;Arfiansyah Galih Saputra;
-61;Perbaikan pagar Talud OM 70;;;;;Jasa;1;;;;MA 3 ;;Tunggu Notif;;;;;;Arfiansyah Galih Saputra;
-62;Assessment LRUT CCPL 60 ke 70;;1101015837;8301078197;500025893;Jasa;1;;;;SSIE;;"Harga masih diatas OE, menunggu CO mengembalikan ke pejabar penandatangan kontrak";;;;;;Arfiansyah Galih Saputra;
-63;Assessment LRUT 70 ke CIB;;;;;Jasa;1;;Penyusunan RKS & RAB;;SSIE;;Pembuatan RAB;;;;;;Arfiansyah Galih Saputra;
-64;Assessment RLA 70 ke SPM;;;;;Jasa;1;;Penyusunan RKS & RAB;;SSIE;;Pembuatan RAB;;;Dhika Noor Fadila;;;Arfiansyah Galih Saputra;
-65;Pekerjaan Tera dan Tera Ulang UTTP;;;;300060772;Jasa;0;15/9/2020;Pengajuan Proses Tender;;SSIE;;tunggu Aanwijzing;;;;;;Arfiansyah Galih Saputra;
-66;Renovasi gedung fire Station;;1101016856;8301083781;;Jasa;1;;Penyusunan RKS & RAB;;SSIE;;Pembuatan RAB;;;;;;Arfiansyah Galih Saputra;
-67;"RLA PSV, pipa dan instalasi";;;;;Jasa;1;;Penyusunan RKS & RAB;;SSIE;;Pembuatan RAB;;;;;;Arfiansyah Galih Saputra;
-68;Pemasangan Jumper Line RWI 063;Non RKAP;1101016026;8301080024;500026124;Jasa;0;06/08/2020;Open BId;;MA 5;"UTL (50, 05, 500)";;;;M. Rangga;;;Eko Prasetyo;
-69;Perbaikan Heat Exchanger Area Utilities Eksisting PT Pertamina (persero) RU IV;RKAP;2101055920;8201031013;500026452;Jasa;0;08/09/2020;Open Bid;;MA 5;"UTL (50, 05, 500)";;;;Mugi N;;;Eko Prasetyo;
-70;Perbaikkan/penggantian line LP Steam & MP Steam di Area Utilities PT Pertamina (Persero) RU IV Cilacap;RKAP;2101055885;8201031011;500026512;Jasa;0;11/09/2020;Pre Bid Meeting;;MA 5;"UTL (50, 05, 500)";;;;Mugi N;;;Eko Prasetyo;
-71;Perbaikan bocoran steam All Area Utilities PT PERTAMINA (PERSERO) RU IV Cilacap;RKAP;2101055921;8201031015;500026684;Jasa;0;05/10/2020;Pengajuan Proses Tender;;MA 5;"UTL (50, 05, 500)";;;;;;;Eko Prasetyo;
-72;Skimming katalis SHU Reaktor 105R-501 di Area GTO PT. PERTAMINA (PERSERO) RU IV Cilacap;Non RKAP;2101056063;8201031153;500026483;Jasa;0;09/09/2020;Pengajuan Proses Tender;;MA 7;;;;;Ramadhan Budi;;;Eko Prasetyo;
-73;Penggantian support dan pemasangan Lamella Sea Water Clarifier A & D Area Utilities RFCC;Non RKAP;2101051716;8201031432;500026609;Jasa;0;10/09/2020;;;MA 5;UTL RFCC;;;;;;;Eko Prasetyo;
-74;Offline chemical cleaning Tube Economizer Boiler 52B201 di Utilities PT Pertamina (Persero) RU IV Cilacap;RKAP;2101056220;8201031159;500026484;Jasa;0;10/09/2020;Open Bid;;MA 5;"UTL (50, 05, 500)";;;;M. Rangga;;;Eko Prasetyo;
-75;Pemeriksaan kondisi Tangki 47T-501 A/B/C & 47T-511 A/B/C/D/E/F menggunakan Phase Array dengan Metode Rope Access Thecnique (RAT) di PERTAMINA (PERSERO) RU IV Cilacap;RKAP;-;-;300062821;Jasa;0;11/09/2020;Pengajuan Proses Tender;;Stat. Eng;;;;;Dhika Noor;;;Eko Prasetyo;
-76;Pemasangan pagar dan Handrail di Imponding basin 166 PT Pertamina (Persero) RU IV Cilacap;Non RKAP;1101016812;8301083754;500026823;Jasa;0;06/10/2020;Pengajuan Proses Tender;;MA 7;SRU;;;;;;;Eko Prasetyo;
-77;"Cleaning Tube Evaporator 54WS-201 dan Tube Brine Heater 054WS103, 054WS-105 Area Utilities Eksisting";Non RKAP;1101016393;8301081544;500026411;Jasa;0;02/09/2020;Open Bid;;MA 5;"UTL (50, 05, 500)";;;;Mugi N;;;Eko Prasetyo;
-78;Pengadaan Letdown Steam System Line HP to MP Steam Area Utilities PT PERTAMINA (PERSERO) RU IV Cilacap;Non RKAP;1101015195;8301074953;500025211;Barang;0;02/09/2020;Pengajuan Proses Tender;;MA 5;"UTL (50, 05, 500)";;;;Ratna Fury;;;Eko Prasetyo;
-79;Penyewaan Elevator Temporary RFCC PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101038127;8201023992;;Barang;1;;Approval HPS OE;;MA 1;RFCC (104);;;;Ramadhan Budianto;;;Dini Gavisa;
-80;Pekerjaan Pemasangan VSD dan Kontrol Stop Finfan Area FOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101007224;8301077500;;Jasa;1;;Approval HPS OE;;MA 1;FOC I;;;;;;;Dini Gavisa;
-81;"Pekerjaan Penggantian Lighting dan Motor Panel, Penggantian Kabel Kontrol Motor 21P16AM & Penggantian Kabel Power Motor 91K401BP1M di Area FOC I, LOC I & SRU PT Pertamina (Persero) RU IV Cilacap";Non RKAP;1101015866;8301078556;;Jasa;1;;Open Bid;;MA 1;FOC I;;;;;;;Dini Gavisa;
-82;Pekerjaan Penggantian Relay Proteksi Trafo 10EE205B Area FOC I PT Pertamina (Persero) RU IV Cilacap;Non RKAP;1101015765;8301077882;;Jasa;1;;Pengajuan Proses Tender;;MA 1;FOC I;;;;Rangga Dewana;;;Dini Gavisa;
-83;Pekerjaan Penggantian Fuse Motor 13K1BM Area FOC I PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101035428;8201029657;;Jasa;1;;Pengajuan Proses Tender;;MA 1;FOC I;;;;Ramadhan Budianto;;;Dini Gavisa;
-84;Pekerjaan Penambahan Lampu Penerangan di 21F1 dan 21F2 Area LOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101012410;8301062412;;Jasa;1;;Pengajuan Proses Tender;;MA 1;LOC I;;;;;;;Dini Gavisa;
-85;Pekerjaan Pemasangan Relay Motor (GE Multilin) PT Pertamina (Persero) RU IV Cilacap;;1101015932;8301079059;;Jasa;1;;Approval HPS OE;;MA 1;;;;;;;;Dini Gavisa;
-86;Pekerjaan Pemasangan Power UPS Laboratorium 30BD12 PT Pertamina (Persero) RU IV Cilacap;;1101012276;8301058314;;Jasa;1;;Approval HPS OE;;MA 3;Laboratorium;;;;;;;Dini Gavisa;
-87;Pekerjaan Perbaikan Motor 063P201M & 063P101AM Area UTL PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101048282;8201026424;;Jasa;1;;Closed;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-88;Pekerjaan Overhaul Generator 051G103 Area UTL PT Pertamina (Persero) RU IV cilacap;RKAP;1101007407;8301064560;;Jasa;1;;Approval HPS OE;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-89;Pekerjaan Perbaikan Overhead Crane 63 Area UTL Existing dan UTL RFCC PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101039320;8201026501;;Jasa;1;;Penerbitan SP3MK;;MA 5;"UTL (05, 50, 500)
- UTL RFCC";;;;;;;Dini Gavisa;
-90;Pekerjaan Perbaikan Motor 63P201M Area UTL PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101045894;8201026535;;Jasa;1;;Penerbitan SP3MK;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-91;"Pekerjaan Penarikan Power Supply ke Gedung Fieldshack MA 6, MA 7, dan Operator UTL RFCC PT Pertamina (Persero) RU IV Cilacap";Non RKAP;2101047957;8201026999;;Jasa;1;;Penerbitan SP3MK;;"MA 6, MA 7";UTL RFCC;;;;;;;Dini Gavisa;
-92;Pekerjaan Penggantian Breaker MCC STG C (MCC 150BD2EE0103CZ STG dan Drawer MCC 150SS1EE0103EZ);;1101015882;8301078388;;Jasa;1;;Pengajuan Proses Tender;;MA 5;UTL RFCC;;;;;;;Dini Gavisa;
-93;Pekerjaan Service Actuator STG A Area UTL RFCC PT Pertamina (Persero) RU IV Cilacap;;1101015687;8301077143;;Jasa;1;;Pengajuan Proses Tender;;MA 5;UTL RFCC;;;;;;;Dini Gavisa;
-94;Pekerjaan Penggantian Motor RWI 63P501M PT Pertamina (Persero) RU IV Cilacap;;2101049186;8201030118;;Jasa;1;;Pengajuan Proses Tender;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-95;Pekerjaan Perbaikan Overhead Crane 063A101 12 Ton Area UTL PT Pertamina (Persero) RU IV Cilacap;;1101015464;8301077129;;Jasa;1;;Approval HPS OE;;MA 5;"Dermaga (60, 063)";;;;;;;Dini Gavisa;
-96;Pekerjaan Penggantian ACB Generator 51G1 Area UTL PT Pertamina (Persero) RU IV Cilacap;Non RKAP;1101007419;8301050992;;Jasa;1;;Penerbitan SP3MK;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-97;Pekerjaan Penggantian ACB Generator 51G2 Area UTL PT Pertamina (Persero) RU IV Cilacap;RKAP;1101012905;8301069935;;Jasa;1;;Release PR by Inventory;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-98;Pekerjaan Perbaikan Transformer 50EE2111A Area UTL 50 PT Pertamina (Persero) RU IV Cilacap;Non RKAP;1101015626;8301077865;;Jasa;1;;Penerbitan SP3MK;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-99;Pekerjaan Balancing dan Rebabbet Motor 053P101CM PT Pertamina (Persero) RU IV Cilacap;;2101055084;;;Jasa;1;;Closed;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-100;Pekerjaan Penggantian Ground Fault Relay Area UTL PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101042023;8201025038;;Jasa;1;;Release PR by Inventory;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-101;Pekerjaan Penggantian Kabel Power Feeder Area UTL PT Pertamina (Persero) RU IV Cilacap;Non RKAP;1101016081;8301079669;;Jasa;1;;Pre bid Meeting;;MA 5;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-102;Pekerjaan Perbaikan Overhead Crane Area 063A101 12 Ton PT Pertamina (Persero) RU IV Cilacap;;2101038364;8301077129;;Jasa;1;;Approval HPS OE;;MA 5;"Dermaga (60, 063)";;;;;;;Dini Gavisa;
-103;Pekerjaan Perbaikan Lighting Panel RFCC PT Pertamina (Persero) RU IV Cilacap;;1101015891;8301078264;;Jasa;1;;Open Bid;;MA 5;UTL RFCC;;;;;;;Dini Gavisa;
-104;Pekerjaan Assessment Cathodic Protection Area UTL dan Oil Movement PT Pertamina (Persero) RU IV Cilacap;;;;;Jasa;1;;Approval HPS OE;;"MA 3, MA 5";"UTL (05, 50, 500)
- OM (30,40,60,NBM)";;;;;;;Dini Gavisa;
-105;Pekerjaan Perbaikan Magnetic Center Motor 91K402BM Area SRU PT Pertamina (Persero) RU IV Cilacap;;1101016167;8301081657;;Jasa;1;;Pra Kualifikasi;;MA 1;SRU;;;;;;;Dini Gavisa;
-106;Pekerjaan Perbaikan Ignitor Pilot Burner 101F504 Area RFCC PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101048692;8201026941;;Jasa;1;;Release PR by Inventory;;MA 6;RFCC (101);;;;;;;Dini Gavisa;
-107;Pekerjaan Perbaikan Ignitor DFAH PT Pertamina (Persero) RU IV Cilacap;RKAP;2101044885;8201025947;;Jasa;1;;Release PR by Inventory;;MA 6;RFCC (101);;;;;;;Dini Gavisa;
-108;Pekerjaan Pengadaan Motor 13K1AM Area FOC I PT Pertamina (Persero) RU IV Cilacap;Non RKAP;1101008004;8301077336;;Barang;1;;Approval HPS OE;;MA 1;FOC I;;;;;;;Dini Gavisa;
-109;"Pekerjaan Pengadaan Motor 23E4AM, 23E8AM, 24E23AM, 24P20BM, dan 11P9BM PT Pertamina (Persero) RU IV Cilacap";;"1101015889
- 1101015888
- 1101015887
- 1101015883
- 1101015900";"8301078702
- 8301078703
- 8301078704
- 8301078706
- 8301078707";;Barang;1;;Approval HPS OE;;MA 1;;;;;;;;Dini Gavisa;
-110;Pekerjaan Pengadaan Motor 91K402AM Area UTL PT Pertamina (Persero) RU IV Cilacap;;1101012752;8301078189;;Barang;1;;Approval HPS OE;;MA 1;"UTL (05, 50, 500)";;;;;;;Dini Gavisa;
-111;Pekerjaan Pengadaan Motor 14P4BM Area FOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101014334;8301075367;;Barang;1;;Approval HPS OE;;MA 1;FOC I;;;;;;;Dini Gavisa;
-112;Pekerjaan Pengadaan Motor LV Area LOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;"1101014242
- 1101012419
- 1101012423
- 1101012424
- 1101012418
- 1101012422";"8301069434
- 8301069437
- 8301069438
- 8301069439
- 8301069441
- 8301069444";;Barang;1;;LH Pemenang;;MA 1;LOC I;;;;;;;Dini Gavisa;
-113;Pekerjaan Pengadaan Motor LV Area LOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;"1101014242
- 1101012419
- 1101012423
- 1101012424
- 1101012418
- 1101012422";"8301069434
- 8301069437
- 8301069438
- 8301069439
- 8301069441
- 8301069444";;Barang;1;;LH Pemenang;;MA 1;LOC I;;;;;;;Dini Gavisa;
-114;Pekerjaan Pengadaan Motor 14P5AM Area FOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101014275;8301077335;;Barang;1;;Pengajuan Proses Tender;;MA 1;FOC I;;;;;;;Dini Gavisa;
-115;Pekerjaan Pengadaan Motor Spare Type VSD (Inverter Duty) Tag No. 14E2 Area FOC I PT Pertamina (Persero) RU IV Cilacap;Non RKAP;2101049777;8201030411;;Barang;1;;Pengajuan Proses Tender;;MA 1;FOC I;;;;;;;Dini Gavisa;
-116;Pekerjaan Pengadaan Motor 12E2AM Area FOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101014276;8301077632;;Barang;1;;Pengajuan Proses Tender;;MA 1;FOC I;;;;;;;Dini Gavisa;
-117;Pekerjaan Pengadaan Motor 24P12M Area LOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101012421;8301069443;;Barang;1;;Pengajuan Proses Tender;;MA 1;LOC I;;;;;;;Dini Gavisa;
-118;Pekerjaan Pengadaan Motor 24P8M Area LOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101012425;8301069442;;Barang;1;;Pengajuan Proses Tender;;MA 1;LOC I;;;;;;;Dini Gavisa;
-119;Pekerjaan Pengadaan Motor 13K1AM Area FOC I PT Pertamina (Persero) RU IV Cilacap;RKAP;1101008004;8301077336;;Barang;1;;Approval HPS OE;;MA 1;FOC I;;;;;;;Dini Gavisa;
-120;Pekerjaan Pengadaan Electric Motor Finfan Area 101 102 104 105 dan 106 Area RFCC dan GTO PT Pertamina (Persero) RU IV Cilacap;RKAP;1101013873;8301077428;;Barang;1;;Pengajuan Proses Tender;;"MA 6
- MA 7";"RFCC (101)
- GTO 105";;;;;;;Dini Gavisa;
-121;Pekerjaan Pengadaan Electric Motor Finfan Area 101 102 104 105 dan 106 Area RFCC dan GTO PT Pertamina (Persero) RU IV Cilacap;RKAP;1101013875;8301078264;;Barang;1;;Release PR by Inventory;;"MA 6
- MA 7";"RFCC (101)
- GTO 105";;;;;;;Dini Gavisa;
-122;Penyehatan IFR Tanki 31T2;Non RKAP;1101015015;8301077647;500025743;Jasa;0;06/07/2020;Pengajuan Proses Tender;;MA 3 ;"OM (30, 40, 60 NBM)";Kelengkapan Dokumen ( Prakualifikasi);16/09/2020;;Dhika Noor Fadila;;;Trawan Hardani;
-123;Penggantian Chloride 14V614A/B;Non RKAP;2101055331;8201030731;500026279;Jasa;0;26/08/2020;;;MA 1;FOC I;Menunggu Negosiasi Final;05/10/2020;;Mugi Nurdini;;;Trawan Hardani;
-124;Kontrak Unit Price Perpipaan Boardes & Stationary di Area FOC 1;RKAP;;;800001861;Jasa;0;28/09/2020;Pengajuan Proses Tender;;MA 1;FOC I;Menunggu Aanwijzing;;;Mumahad Rangga Dewana;;;Trawan Hardani;
-125;Pekerjaan Modifikasi Line Spill Back 32P102 AB RBDPO;Non RKAP;1101016703;8301082684;500026597;Jasa;0;21/09/2020;;;MA 3 ;"OM (30, 40, 60 NBM)";Menunggu Nego;06/10/2020;;Ramadhan Budi;;;Trawan Hardani;
-126;Penyehatan Holding Basin 66;Non RKAP;;;;Jasa;1;;;;MA 3 ;"OM (30, 40, 60 NBM)";;;;;;;Trawan Hardani;
-127;Pengadaan Gasket 11E50 A-T;RKAP;2101056557;8201031535;;Barang;1;;;;MA 1;FOC I;;;;Dimas;;;Trawan Hardani;
-128;Pengadaan HE Assy 11E50 (Finfan);RKAP;1101006105;8301041139;500018286;Barang;0;20/09/2018;LH Pemenang;;MA 1;FOC I;"LHP (Nego diatas OE), menunggu arahan Man MPS";05/10/2020;;Ratna Fury C;;;Trawan Hardani;
-129;Pengadaan LA 72X-101/210/102/202;;1101012005;8301063978;500024431;Barang;1;Okt 2020;Pengajuan Proses Tender;;;;;;;-;;;Guntur Yulianto;
-130;"Perbaikan Walkway, structure, dan peralatan stationary di CIB I-II";;2101034656;8201019520;500019883;Jasa;1;Agust 2020;Approval HPS OE;;;;;;;Dhika;;;Guntur Yulianto;
-131;Pengadaan FinFan Assy 240E-125;;2101041312;8201022589;500023205;Barang;1;Juli 2020;Pengajuan Proses Tender;;;;;;;-;;;Guntur Yulianto;
-132;Wrapping pipe pile JETTY I/II/III;;1101013600;8301065971;500023591;Jasa;1;Sept 2020;Pengajuan Proses Tender;;;;;;;Rangga;;;Guntur Yulianto;
-133;Wrapping Eqpt di KPC;;2101046126;;;Jasa;1;Okt 2020;;;;;;;;;;;Guntur Yulianto;
-134;Pembuatan Support Jack PLEM SPM;;2101047287;8201025924;500023798;Jasa;1;Sept 2020;Approval HPS OE;;;;;;;Mirma;;;Guntur Yulianto;
-135;Perb spring hanger & support hanger;;1101014027;;;Jasa;1;Okt 2020;;;;;;;;-;;;Guntur Yulianto;
-136;Perb Counter Weight Tanki di A70;;2101048128;8201027618;500024748;Jasa;1;Agust 2020;Approval HPS OE;;;;;;;Rangga;;;Guntur Yulianto;
-137;Internal Cleaning 39T202 & 209;;2101049438;8201027129;500024419;Jasa;1;Juli 2020;Pengajuan Proses Tender;;;;;;;;;;Guntur Yulianto;
-138;Pemasangan LA 73X105 di Jetty III;;1101015136;8301074906;500025197;Jasa;1;Sept 2020;Pengajuan Proses Tender;;;;;;;Mugi;;;Guntur Yulianto;
-139;COC PL-III di R-234 PX;;1101015426;8301078805;500025951;Jasa;1;Sept 2020;Approval HPS OE;;;;;;;Budi;;;Guntur Yulianto;
-140;Internal Cleaning & Perbaikan 39T2020;;1101015453;8301077294;500025751;Jasa;1;Sept 2020;Approval HPS OE;;;;;;;Mugi;;;Guntur Yulianto;
-141;Penggantian total pipa close drain area KPC;;1101015518;8301077631;500025745;Jasa;1;Sept 2020;Approval HPS OE;;;;;;;Rangga;;;Guntur Yulianto;
-142;Perbaikan catwalk 73MD9;;1101015761;8301079234;500026061;Jasa;1;Agust 2020;Pengajuan Proses Tender;;;;;;;Dhika;;;Guntur Yulianto;
-143;Pemasangan Anti Slip Tangga Tanki 70;;1101016020;8301079949;500026075;Jasa;1;Sept 2020;Pengajuan Proses Tender;;;;;;;Dhika;;;Guntur Yulianto;
-144;Pemasangan Scaffolding di Tanki LOC-3;;1101016600;8301082116;500026485;Jasa;1;Sept 2020;Pengajuan Proses Tender;;;;;;;Mugi;;;Guntur Yulianto;
-145;Perbaikan Platform di KPC;;1101014018;8301079421;500026049;Jasa;1;Sept 2020;Approval HPS OE;;;;;;;Mugi;;;Guntur Yulianto;
-146;Perb. Perpipaan & Asesoris Stat 70;;2101053799;8201030790;800001926;Jasa;1;Sept 2020;Pengajuan Proses Tender;;;;;;;Rangga;;;Guntur Yulianto;
-147;Perb LA 72X201 di CIB II;;1101016327;;;Jasa;1;Agust 2020;;;;;;;;;;;Guntur Yulianto;
-148;"Cleaning Burner, tandem seal, LG";;1101016317;8301081302;500026335;Jasa;1;Sept 2020;Approval HPS OE;;;;;;;Budi;;;Guntur Yulianto;
+1;Perbaikan Pompa 38P112A/B;Non RKAP;"8201031284, 8201031285";"500026567, 500026568";;jasa;14/08/2020;Pre bid meeting;25/09/2020;Workshop;OM 60 & NBM;;;;Ramadhan Budianto;;;Baskoro Adiputro Purwono;14/08/2020;29/08/2020;07/09/2020;14/09/2020;21/09/2020;25/09/2020;;;;;
+2;Fabrikasi Volute Casing Blower 84K251;Non RKAP;8201031319;500026639;;jasa;20/07/2020;Pengajuan Proses Tender;22/09/2020;Workshop;PARAXYLENE;;;;;;;Baskoro Adiputro Purwono;20/07/2020;04/08/2020;03/09/2020;09/09/2020;22/09/2020;;;;;;
+3;Kontrak Tenaga Bantu Perbaikan Kompresor 12K1B;Non RKAP;8201031581;;;jasa;20/09/2020;Pengajuan Proses Tender;29/09/2020;MA 1;FOC I;;;;;;;Baskoro Adiputro Purwono;20/09/2020;22/09/2020;24/09/2020;28/09/2020;29/09/2020;;;;;;
+4;Perbaikan Fin Fan 85E215D;Non RKAP;8201031134;500026498;;jasa;31/08/2020;Penunjukan Pemenang;29/09/2020;MA 4;PARAXYLENE;;;;Rangga Dewana;;;Baskoro Adiputro Purwono;31/08/2020;15/09/2020;17/09/2020;19/09/2020;23/09/2020;25/09/2020;26/09/2020;27/09/2020;29/09/2020;;
+5;Fabrikasi Shaft 011P113A;Non RKAP;8201030997;500026451;;jasa;06/08/2020;Penerbitan SP3MK;21/09/2020;Workshop;FOC II;;;;Ramadhan Budianto;;;Baskoro Adiputro Purwono;06/08/2020;21/08/2020;26/08/2020;28/08/2020;02/09/2020;05/09/2020;12/09/2020;16/09/2020;18/09/2020;21/09/2020;
+9;"Digitalisasi Asset Area Kilang RFCC, KPC, FOC II";Non RKAP;1101015750;8301077430;500025709;jasa;26/06/2020;SPB;24/07/2020;EIIE;ALL Area;Menunggu Dokumen SPB/PO;24/07/2020;;Dhika Noor Fadilla;KOPAMA;No. 227/E14100/2020-S0;Tyffani Meirnadias;26/06/2020;11/07/2020;13/07/2020;14/07/2020;15/07/2020;17/07/2020;20/07/2020;21/07/2020;21/07/2020;23/07/2020;24/07/2020
+13;Penyehatan Inst. Substandard PX Area B&C;RKAP;1101015880;8301078571;500025894;jasa;13/07/2020;Approval HPS OE;24/09/2020;MA 4;PARAXYLENE;;;;Dhika Noor Fadilla;;;Tyffani Meirnadias;13/07/2020;28/07/2020;27/08/2020;02/09/2020;09/09/2020;11/09/2020;24/09/2020;;;;
+14;TSA FGDS SIEGER HONEY WELL;RKAP;-;-;800001732;jasa;01/03/2020;Pre bid meeting;24/06/2020;MA 4;"SRU,FOC I";Calon Penyedia jasa belum memenuhi kriteria untuk dapat melakukan tender;01/07/2020;;;;;Tyffani Meirnadias;01/03/2020;16/03/2020;15/04/2020;21/04/2020;28/04/2020;24/06/2020;;;;;
+15;TSA SPARING;Non RKAP;-;-;;jasa;24/08/2020;Izin Prinsip / Persetujuan;24/08/2020;MA 3 ;OM 60 & NBM;Menunggu Factory Quotation;24/08/2020;;;PT Chemviro Buana;;Tyffani Meirnadias;24/08/2020;24/08/2020;24/08/2020;24/08/2020;;;;;;;
+16;Pengadaan jasa Asisten Pengawas ME II;Non RKAP;-;-;300062634;jasa;11/09/2020;Approval HPS OE;28/09/2020;MA 6;Semua ME II;;;;Mugi Nurdini;PT Cahaya Turangga Sakti;;Tyffani Meirnadias;11/09/2020;13/09/2020;15/09/2020;17/09/2020;21/09/2020;23/09/2020;28/09/2020;;;;
+17;Pemasangan Baru DCS OM 70;RKAP;1101013568;8301083301;500026706;jasa;28/09/2020;Izin Prinsip / Persetujuan;01/10/2020;MA 3 ;OM 70;Perlu pembuatan izin prinsip karena justifikasi dari REL tidak mutlak hanya dapat dipilih 1 (satu) penyedia jasa;30/09/2020;;;PT Vania Amicitia;;Tyffani Meirnadias;28/09/2020;29/09/2020;30/09/2020;01/10/2020;;;;;;;
+18;Pemasangan Flowmeter Drainase Jalan A dan N;Non RKAP;2101048268;;;jasa;08/05/2020;Izin Prinsip / Persetujuan;28/09/2020;MA 3 ;OM 60 & NBM;"Pihak Manufacture yang direkomendasikan EIIE (Endress Hauser) perlu melakukan site survey sebelum dapat mengirimkan Quotation kepada Pertamina, site survey terkendala karena alasan PSBB-covid";21/09/2020;;;;;Tyffani Meirnadias;08/05/2020;23/05/2020;22/06/2020;28/09/2020;;;;;;;
+19;Penyehatan Inst. & Elect. Substandard UTL RFCC;RKAP;2101057041;;;jasa;10/02/2020;Penyusunan RKS & RAB;15/09/2020;MA 5;UTILITIES RFCC;Menunggu Notif NOPR;02/10/2020;;;;;Tyffani Meirnadias;10/02/2020;25/02/2020;26/03/2020;15/09/2020;;;;;;;
+20;Retrofit Control System Pneumix 101-A-525B Area RFCC RUIV Cilacap;Non RKAP;;;;jasa;29/09/2020;Penyusunan RKS & RAB;04/10/2020;MA 6;RFCC;Menunggu Notifikasi Pekerjaan;04/10/2020;;;;;Tyffani Meirnadias;29/09/2020;30/09/2020;02/10/2020;04/10/2020;;;;;;;
+21;"Managemen Data Engineering dan Monitoring Pekerjaan Pemeliharaan Equipment Stasionary, Rotating Listrik dan Instrument di Area PT PERTAMINA (PERSERO) RU IV Cilacap";Non RKAP;-;-;;jasa;10/02/2020;Sourcing;02/10/2020;P&S;MPS;Perpanjang kontrak Volume Asisten Planner dan Tenaga Expert P&S untuk tahun 2021;02/10/2020;;;;;Tyffani Meirnadias;10/02/2020;25/02/2020;26/03/2020;02/10/2020;;;;;;;
+22;Penggantian Surge Protection Device Area Utilities RFCC;Non RKAP;1101015751;8301077498;500025760;jasa;22/06/2020;Penerbitan SP3MK;30/09/2020;MA 5;UTILITIES RFCC;;;;Ramadhan Budianto;PT Jesfindo Mitra Pratama;;Dwi Hizzki Hanisa;22/06/2020;07/07/2020;06/08/2020;12/08/2020;19/08/2020;21/08/2020;04/09/2020;18/09/2020;25/09/2020;30/09/2020;
+23;TSA ATG Tikyo Keiso Area RFCC dan GTO;RKAP;;;800001820;jasa;10/06/2020;Pre bid meeting;01/09/2020;MA 7;"RFCC,GTO";Fiksasi lingkup pekerjaan penyehatan oleh engineer;21/09/2020;;Ramadhan Budianto;PT Multi Kedona Teknik;;Dwi Hizzki Hanisa;10/06/2020;25/06/2020;25/07/2020;31/07/2020;07/08/2020;01/09/2020;;;;;
+24;Perbaikan Anti Surge Controller DPAC 156K-502 A/B UTL RFCC;RKAP;2101040486;8201024971;500023242;jasa;20/07/2020;Sourcing;01/08/2020;MA 5;UTILITIES RFCC;"Vendor tidak menyanggupi lingkup pekerjaan sesuai yang ditawarakn, engineer belum memberi rekomendasi lebih lanjut.";21/09/2020;;-;-;;Dwi Hizzki Hanisa;20/07/2020;;;;;;;;;;
+25;Penggantian Sensor COD SPARING Holding Basin;Non RKAP;2101048850;8201028541;500025217;jasa;25/06/2020;Open Bid;01/09/2020;MA 3 ;OM 60 & NBM;"Tidak tercapainya kesepakatan dengan harga vendor, rencana penarikan paket dan perubahan lingkup";22/09/2020;;D.C Mirmaningktyas;PT Chemviro Buana Indonesia;;Dwi Hizzki Hanisa;25/06/2020;10/07/2020;09/08/2020;15/08/2020;22/08/2020;24/08/2020;28/09/2020;01/09/2020;;;
+26;"Pengadaan Remote Monitoring DCS dengan Experion e-Server Area FOC II, RFCC, dan LNHT ISOM";Non RKAP;1101015897;;;jasa;21/09/2020;Penunjukan Pemenang;28/09/2020;EIIE;"FOC II,RFCC,GTO";;;;;PT Vania Amicitia;;Dwi Hizzki Hanisa;21/09/2020;22/09/2020;23/09/2020;24/09/2020;25/09/2020;26/09/2020;27/09/2020;28/09/2020;28/09/2020;;
+27;Pengadaan Field Device Manager Honeywell KPC;Non RKAP;1101015759;;;jasa;11/08/2020;Penunjukan Pemenang;28/09/2020;MA 4;PARAXYLENE;;;;;PT Vania Amicitia;;Dwi Hizzki Hanisa;11/08/2020;26/08/2020;12/09/2020;14/09/2020;16/09/2020;18/09/2020;22/09/2020;24/09/2020;28/09/2020;;
+28;TSA Alat Lab X-Ray Rigaku ZSX Primus;RKAP;;;;jasa;08/11/2020;Sourcing;11/09/2020;Workshop;LABORATORY;Vendor belum memberikan penawaran harga;11/09/2020;;;PT Lab Sistematika Indonesia;;Dwi Hizzki Hanisa;08/11/2020;;;;;;;;;;
+29;Pemasangan Shut Off Valve di 520B-301 dan Perbaikan 104XV-045B/046B;RKAP;1101005544;8301049416;8301049416;jasa;18/04/2020;Approval HPS OE;21/09/2020;MA 5;"UTILITIES RFCC,RFCC";Menunggu klarifikasi engineer terkait perbedaan spek material di memo rekomendasi dan KAK terakhir. Notulen rapat pembahasan perubahan material tersebut tidak ada;21/09/2020;;Dhika Noor Fadila;PT Contromatic Prima Mandiri;;Dwi Hizzki Hanisa;18/04/2020;03/05/2020;02/06/2020;08/06/2020;15/06/2020;17/06/2020;21/09/2020;;;;
+30;Perbaikan Timbangan Asphalt Drum Plant Oil OM NBM;;;;;jasa;15/08/2020;Penyusunan RKS & RAB;11/08/2020;MA 3 ;OM 60 & NBM;"Menunggu rekomendasi SSIE untuk perbaikan pelat dan pondasi, sesuai permintaan memo rekomendasi EIIE";17/08/2020;;;;;Dwi Hizzki Hanisa;15/08/2020;11/08/2020;11/08/2020;;;;;;;;
+31;TSA Pemeliharaan 2 Unit Continuous Emission Monitoring System (CEMS) di Area SRU dan Utilities 50;RKAP;;;;jasa;10/05/2020;;30/08/2020;MA 5;"SRU,UTILITIES 50";;;;;;;Dwi Hizzki Hanisa;10/05/2020;;;;;;;;;;
+32;Pemasangan 9 Unit ATG Radar Area OM;RKAP;1101006009;8301037686;8301037686;jasa;27/12/2020;Sourcing;15/07/2020;MA 3 ;OM 60 & NBM;Peserta tender belum mengirimkan penawaran harga;31/08/2020;;Mugi Nurdini;;;Dwi Hizzki Hanisa;27/12/2020;;;;;;;;;;
+33;Pemasangan CO Detector di CO Boiler 101F-503 RFCC;RKAP;2101035207;8201019731;8201019731;jasa;27/02/2020;Pre bid meeting;06/10/2020;MA 6;RFCC;;;;Mugi Nurdini;;;Dwi Hizzki Hanisa;27/02/2020;13/03/2020;12/04/2020;18/04/2020;25/04/2020;06/10/2020;;;;;
+34;Pengadaan Desuperheater dan Instrumentasi di Letdown HHP-HP Steam System Area Utilities RFCC;MOC;1101016786;8301083292;8301083292;jasa;09/01/2020;Pengajuan Proses Tender;30/09/2020;MA 5;UTILITIES RFCC;;;;;;;Dwi Hizzki Hanisa;09/01/2020;24/01/2020;23/02/2020;29/02/2020;30/09/2020;;;;;;
+35;TSA Online Analyzer OEM Teledyne;RKAP;;;;jasa;12/04/2020;Pre bid meeting;25/09/2020;MA 6;"LOC II,LOC III,PARAXYLENE,UTILITIES RFCC,RFCC";;;;Dhika Noor Fadila;;;Dwi Hizzki Hanisa;12/04/2020;27/04/2020;27/05/2020;02/06/2020;09/06/2020;25/09/2020;;;;;
+36;TSA Sulfur Analyzer Malvern Panalytical;RKAP;;;;jasa;09/01/2020;Sourcing;28/09/2020;Workshop;LABORATORY;;;;;;;Dwi Hizzki Hanisa;09/01/2020;;;;;;;;;;
+37;Pembuatan Landmark di Unit 101 RFCC;Non RKAP;2101054664;8201031146;500026511;Jasa;27/07/2020;Pre bid meeting;08/10/2020;MA 6;RFCC;Menunggu Aanwijzing;;;Mugi Nurdini;;;Nurul Komari;27/07/2020;11/08/2020;10/09/2020;16/09/2020;23/09/2020;08/10/2020;;;;;

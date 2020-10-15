@@ -35,7 +35,7 @@ class ProgressSeeder extends Seeder
                 'is_urgent' => 0
             ],
             [
-                'name' => 'Izin Prinsip/ Persetujuan',
+                'name' => 'Izin Prinsip / Persetujuan',
                 'estimation' => 7,
                 'type' => 'jasa',
                 'is_urgent' => 0

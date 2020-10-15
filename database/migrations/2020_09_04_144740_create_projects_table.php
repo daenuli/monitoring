@@ -15,11 +15,11 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id');
-            $table->integer('parent_id')->nullable();
             // $table->integer('inisiasi_id');
-            $table->integer('sub_inisiasi_id')->nullable();
             // $table->integer('production_area_id')->nullable();
+            $table->integer('user_id')->nullable();
+            $table->integer('parent_id')->nullable();
+            $table->integer('sub_inisiasi_id')->nullable();
             $table->integer('maintenance_area_id')->nullable();
             $table->string('work_order_number')->nullable();
             $table->string('reference_number')->nullable();
@@ -32,7 +32,7 @@ class CreateProjectsTable extends Migration
             $table->text('description')->nullable();
             $table->text('impact')->nullable();
             $table->enum('type', ['jasa', 'barang']);
-            $table->date('start_date');
+            $table->date('start_date')->nullable();
             $table->boolean('is_urgent');
             $table->integer('status'); // 0. Tidak Aktif, 1. Aktif
             $table->timestamps();
