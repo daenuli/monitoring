@@ -58,7 +58,7 @@ class UserSeeder extends Seeder
             ],
             [
                 'discipline' => 'Electrical',
-                'name' => 'Dini Gavisa'
+                'name' => 'Diny Gavisa'
             ],
             [
                 'discipline' => 'Sipil',
@@ -67,6 +67,10 @@ class UserSeeder extends Seeder
             [
                 'discipline' => 'Rotating',
                 'name' => 'Radyanta Purwonugroho'
+            ],
+            [
+                'discipline' => 'Mekanik',
+                'name' => 'Akhmad Rizal Amri'
             ]
         ];
 

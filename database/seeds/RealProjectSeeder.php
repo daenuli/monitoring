@@ -23,33 +23,39 @@ class RealProjectSeeder extends Seeder
     public function run()
     {
         // $csvFileName = "real_project_old1.csv";
-        $csvFileName = "real_project.csv";
+        $csvFileName = "barang.csv";
+        // $csvFileName = "jasa.csv";
         $csvFile = public_path($csvFileName);
-        $data = $this->readCSV($csvFile,array('delimiter' => ';'));
+        $data = $this->readCSV($csvFile,array('delimiter' => ','));
+        // $data = $this->readCSV($csvFile,array('delimiter' => ';'));
         
-        Project::truncate();
-        ProjectIssue::truncate();
-        ProjectProductionArea::truncate();
-        ProjectProgress::truncate();
+        // Project::truncate();
+        // ProjectIssue::truncate();
+        // ProjectProductionArea::truncate();
+        // ProjectProgress::truncate();
 
         $this->command->getOutput()->progressStart(count($data));
         foreach ($data as $keyData => $value) {
-            if(isset($value[18])){
+            $this->command->info($value[0]);
+            if ( $keyData < 4 ) { continue; }
+            if(isset($value[18]) && !empty($value[18])){
 
                 // MA
                 if (!empty($value[10])) {
                     $DP = $value[10];         
-                    // $DP = ($value[10] == 'GENMAINT')?'General Maintenance':$value[10];         
-                    $direksi_id = MaintenanceArea::where('name', 'LIKE', $DP.'%')->value('id');
+                    // $DP = ($value[10] == 'GENMAINT')?'General Maintenance':$value[10];
+                    // $this->command->info($DP);         
+                    // $direksi = MaintenanceArea::where('name', 'LIKE', $DP.'%')->value('id');
+                    $direksi = MaintenanceArea::where('name', 'LIKE', trim($DP).'%')->first()->id;
                 } else {
-                    $direksi_id = null;
+                    $direksi = null;
                 }
 
                 // Sub Inisiasi
                 if (!empty($value[2])) {
-                    $sub_inisiasi_id = SubInitiation::where('name', 'LIKE', $value[2].'%')->value('id');
+                    $sub_inisiasi = SubInitiation::where('name', 'LIKE', $value[2].'%')->first()->id;
                 } else {
-                    $sub_inisiasi_id = null;
+                    $sub_inisiasi = null;
                 }
                 // $this->command->info($value[2]);
 
@@ -101,6 +107,7 @@ class RealProjectSeeder extends Seeder
                     // }
                     $exp = explode('/', $value[7]);
                     $month = (strlen($exp[1]) == 1) ? '0'.$exp[1] : $exp[1];
+                    // $year = (strlen($exp[2]) == 2) ? $exp[2].'20' : $exp[2];
                     $fix_date = $exp[2].'-'.$month.'-'.$exp[0];
                     $start_date_project = $fix_date;           
                 // } else {
@@ -114,8 +121,8 @@ class RealProjectSeeder extends Seeder
 
                 $projects = Project::create([
                     'user_id' => $planner_id->id,
-                    'sub_inisiasi_id' => $sub_inisiasi_id,
-                    'maintenance_area_id' => $direksi_id,
+                    'sub_inisiasi_id' => $sub_inisiasi,
+                    'maintenance_area_id' => $direksi,
                     'work_order_number' => $work_order,
                     'reference_number' => null,
                     'notification_number' => $notif,
@@ -138,11 +145,14 @@ class RealProjectSeeder extends Seeder
                     $current_step = $value[8];           
                     $start_date_progress = $value[9];                
                     $PG_ID = Progress::where([
-                        ['type', 'jasa'],
+                        ['type', strtolower($value[6])],
                         ['is_urgent', 0],
                         ['name', 'LIKE', $current_step.'%'],
                     ])->first();
-                    $PG = Progress::where('id', '<=', $PG_ID->id)->orderBy('id', 'asc')->get();
+                    $PG = Progress::where([
+                        ['type', strtolower($value[6])],
+                        ['is_urgent', 0],
+                    ])->orderBy('id', 'asc')->get();
                     $index = 19;  
                     $step_start_date = $value[$index]; 
                     foreach ($PG as $j => $PGS) {
@@ -153,49 +163,38 @@ class RealProjectSeeder extends Seeder
 
                         
                         $estimation[$keyData][$j] = $PGS->estimation;
-                        // $this->command->info('project : '.$projects->id.', progress : '.$PGS->id.', estimation : '.$PGS->estimation. ', total : '.array_sum($estimation[$keyData]));
                         $due_date = Carbon::parse($start_date_project)->addDays(array_sum($estimation[$keyData]));
-                        // ProjectProgress::create([
-                        //     'project_id' => $projects->id,
-                        //     'progress_id' => $PGS->id,
-                        //     // 'start_date' => NULL,
-                        //     // 'start_date' => $start,
-                        //     'start_date' => $start,
-                        //     'due_date' => $due_date,
-                        //     'finish_date' => $due_date
-                        // ]);
+                        $finish_date = !empty($value[$index+($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL;
+                        $start_date = !empty($value[$index+$j])?Carbon::CreateFromFormat('d/m/Y', $value[$index+$j])->format('Y-m-d'):NULL;
+                        
                         ProjectProgress::create([
                             'project_id' => $projects->id,
                             'progress_id' => $PGS->id,
-                            // 'start_date' => NULL,
-                            // 'start_date' => $start,
-                            // 'due_date' => $due_date,
                             'due_date' => $due_date,
-                            'start_date' => Carbon::CreateFromFormat('d/m/Y', $value[$index+$j])->format('Y-m-d'),
-                            // 'due_date' => !empty($value[$index+($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL,
-                            'finish_date' => !empty($value[$index+($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL
+                            'start_date' => $start_date,
+                            'finish_date' => $finish_date,
+                            'created_at' => $start_date,
+                            'updated_at' => $finish_date,
                         ]);
                     }
                 }
                 
                 if (!empty($value[11])) {
                     $AH = explode(',', $value[11]);
-                    // $this->command->info($value[0]);
+                    $this->command->info($value[0]);
                     foreach ($AH as $vl) {
                         $PA = ProductionArea::where('name', $vl)->first();
-                        // foreach ($PA as $prod) {
                             ProjectProductionArea::insert([
                                 'project_id' => $projects->id,
                                 'production_area_id' => $PA->id,
                                 'created_at' => $start_date_project,
                             ]);
-                        // }
                     }
                 }
 
                 $last_issue_date = $value[13]; 
-                if (!empty($last_issue_date)) {
-                    $issue_content = !empty($value[12])?$value[12]:NULL;
+                $issue_content = !empty($value[12])?$value[12]:NULL;
+                if (!empty($last_issue_date) && !empty($issue_content)) {
 
                     $exp_issue = explode('/', $last_issue_date);
                     $month_issue = (strlen($exp_issue[1]) == 1) ? '0'.$exp_issue[1] : $exp_issue[1];
@@ -205,7 +204,7 @@ class RealProjectSeeder extends Seeder
                     ProjectIssue::insert([
                         'project_id' => $projects->id,
                         'description' => $issue_content,
-                        'created_at' => $projects->created_at
+                        'created_at' => !empty($issue_date) ? $issue_date : NULL
                     ]);
                 }
 

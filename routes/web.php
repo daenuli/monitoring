@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 use App\Models\ProductionArea;
 
 Route::get('/', function () {
+    return trim("MA 3 ");
     // $data = 'LOC II, LOC III, PARAXYLENE, UTILITIES RFCC, RFCC, FOC I';
     $data = 'SRU, UTILITIES 50';
     $AH = explode(', ', $data);

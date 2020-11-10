@@ -19,6 +19,7 @@ class CreateProgressTable extends Migration
             $table->integer('estimation');
             $table->enum('type', ['jasa', 'barang']);
             $table->boolean('is_urgent');
+            $table->boolean('is_skip');
             // $table->integer('type');
             // $table->timestamps();
         });
