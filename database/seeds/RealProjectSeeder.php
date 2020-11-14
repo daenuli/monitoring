@@ -23,16 +23,16 @@ class RealProjectSeeder extends Seeder
     public function run()
     {
         // $csvFileName = "real_project_old1.csv";
-        $csvFileName = "barang.csv";
-        // $csvFileName = "jasa.csv";
+        // $csvFileName = "barang.csv";
+        $csvFileName = "jasa.csv";
         $csvFile = public_path($csvFileName);
         $data = $this->readCSV($csvFile,array('delimiter' => ','));
         // $data = $this->readCSV($csvFile,array('delimiter' => ';'));
         
-        // Project::truncate();
-        // ProjectIssue::truncate();
-        // ProjectProductionArea::truncate();
-        // ProjectProgress::truncate();
+        Project::truncate();
+        ProjectIssue::truncate();
+        ProjectProductionArea::truncate();
+        ProjectProgress::truncate();
 
         $this->command->getOutput()->progressStart(count($data));
         foreach ($data as $keyData => $value) {
@@ -153,29 +153,60 @@ class RealProjectSeeder extends Seeder
                         ['type', strtolower($value[6])],
                         ['is_urgent', 0],
                     ])->orderBy('id', 'asc')->get();
-                    $index = 19;  
+                    $index = 19;
+
                     $step_start_date = $value[$index]; 
+                    // $step_jasa = 12;
+                    // $step_barang = 8;
                     foreach ($PG as $j => $PGS) {
                         $PP = ProjectProgress::where('project_id', $projects->id)
                                 ->orderBy('id', 'desc')
                                 ->first();
                         $start = !empty($PP) ? $PP->finish_date : $start_date_project;
-
                         
                         $estimation[$keyData][$j] = $PGS->estimation;
                         $due_date = Carbon::parse($start_date_project)->addDays(array_sum($estimation[$keyData]));
                         $finish_date = !empty($value[$index+($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL;
+                        
+                        // while ($finish_date == NULL) {
+                        //     $finish_date = !empty($value[$index+($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL;
+                        // }
+                        // $i = $j;
+                        // $this->command->info($value[2]);
+                        // if ($finish_date == NULL) {
+                        //     do {
+                        //         $finish_date = !empty($value[$index+(+$j)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+(+$j)])->format('Y-m-d'):NULL;
+                        //     } while ($finish_date == NULL);
+                        // }
+                        // while ($finish_date == NULL) {
+                        //     $finish_date = !empty($value[$index+($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL;
+                        // }
+                        
                         $start_date = !empty($value[$index+$j])?Carbon::CreateFromFormat('d/m/Y', $value[$index+$j])->format('Y-m-d'):NULL;
                         
-                        ProjectProgress::create([
-                            'project_id' => $projects->id,
-                            'progress_id' => $PGS->id,
-                            'due_date' => $due_date,
-                            'start_date' => $start_date,
-                            'finish_date' => $finish_date,
-                            'created_at' => $start_date,
-                            'updated_at' => $finish_date,
-                        ]);
+                        if($j == 0) {
+                            if(empty($start_date)) {
+                                ProjectProgress::create([
+                                    'project_id' => $projects->id,
+                                    'progress_id' => $PGS->id,
+                                    'start_date' => $start_date_project,
+                                    'due_date' => $due_date,
+                                    'finish_date' => NULL,
+                                    'created_at' => $start_date,
+                                    'updated_at' => $finish_date,
+                                ]);
+                            }
+                        } else {
+                            ProjectProgress::create([
+                                'project_id' => $projects->id,
+                                'progress_id' => $PGS->id,
+                                'start_date' => $start_date,
+                                'due_date' => $due_date,
+                                'finish_date' => $finish_date,
+                                'created_at' => $start_date,
+                                'updated_at' => $finish_date,
+                            ]);
+                        }
                     }
                 }
                 
@@ -212,6 +243,17 @@ class RealProjectSeeder extends Seeder
             }
         }
         $this->command->getOutput()->progressFinish();
+    }
+
+    public function next_finish_date($finish_date, $j, $type, $value)
+    {
+        if($finish_date == NULL) {
+            
+        }
+        $total = ($type == 'jasa')? 30 : 8;
+        // for ($i=$j; $i <= $total ; $i++) { 
+            $finish_date = !empty($value[19 +($j+1)])?Carbon::CreateFromFormat('d/m/Y', $value[$index+($j+1)])->format('Y-m-d'):NULL;
+        // }
     }
 
     public function readCSV($csvFile, $array)

@@ -71,6 +71,18 @@ class UserSeeder extends Seeder
             [
                 'discipline' => 'Mekanik',
                 'name' => 'Akhmad Rizal Amri'
+            ],
+            [
+                'discipline' => 'Mekanik',
+                'name' => 'Catur Harjono',
+                'email' => 'catur.harjono@pertamina.com',
+                'role' => 'ma',
+            ],
+            [
+                'discipline' => 'Mekanik',
+                'name' => 'Rifqi Anda',
+                'email' => 'rifqi.anda@pertamina.com',
+                'role' => 'ma',
             ]
         ];
 
@@ -83,13 +95,13 @@ class UserSeeder extends Seeder
                 'nip' => $faker->nik(),
                 'phone' => $faker->phoneNumber,
                 'name' => $value['name'],
-                'email' => strtolower(explode(' ',$value['name'])[0]).'@pertamina.com',
-                'password' => bcrypt(111111),
+                'email' => isset($value['email'])?$value['email']:strtolower(explode(' ',$value['name'])[0]).'@pertamina.com',
+                'password' => 'PertaminaRU4',
                 'status' => 1,
                 'department' => 'Planning & Scheduling',
                 'photo' => null,
                 'discipline_id' => $discipline,
-                'role' => 'planner'
+                'role' => isset($value['role'])?$value['role']:'planner'
             ]);
         }
     }
